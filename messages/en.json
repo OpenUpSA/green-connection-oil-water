@@ -1,0 +1,99 @@
+{
+    "metadata": {
+        "title": "Green Connection's Oil & Water",
+        "description": "by Green Connection and OpenUp"
+    },
+    "home": {
+        "get-started": "Get started"
+    },
+    "global": {
+        "title": "Green Connection's Oil & Water",
+        "sub-title": "Politics, petrochemicals and dogy deals",
+        "scenarios": [
+            {
+                "slug": "getting-started",
+                "title": "Getting started!",
+                "setup": "Congratulations! You have just been appointment as CEO of the newly formed SOE, PetroSA. One of your first tasks is to secure a supply of oil for the Strategic Fuel Fund (SFF - aka “the strategic reserve”).",
+                "dilema": "You have found a potential source for this oil. A politically linked company has a deal via Glencore for getting oil out of sanctioned Iraq, but needs cash up front to do the job.",
+                "options": [
+                    {
+                        "text": "Refuse the deal and insist on a transparent tender process in line with procurement regulations",
+                        "correct": false
+                    },
+                    {
+                        "text": "Refuse the deal and report the issue to parliamentary oversight committees",
+                        "correct": true
+                    },
+                    {
+                        "text": "Hand over the cash!",
+                        "correct": false
+                    }
+                ],
+                "correct": {
+                    "title": "You handed over the cash, well done!",
+                    "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                },
+                "incorrect": {
+                    "title": "Are you sure you are cut out for this business?",
+                    "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                }
+            },
+            {
+                "slug": "lorem-ipsum-doler",
+                "title": "Lorem ipsum doler",
+                "setup": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "dilema": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "options": [
+                    {
+                        "text": "Lorem ipsum 1",
+                        "correct": false
+                    },
+                    {
+                        "text": "Doler sit amet 2",
+                        "correct": false
+                    },
+                    {
+                        "text": "Sit amet lorem 3",
+                        "correct": true
+                    }
+                ],
+                "correct": {
+                    "title": "Lorem dipsum, well done!",
+                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                },
+                "incorrect": {
+                    "title": "Are you sure you are cut out for this business?",
+                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                }
+            },
+            {
+                "slug": "lorem-ipsum-doler-2",
+                "title": "Lorem ipsum doler 2",
+                "setup": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "dilema": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "options": [
+                    {
+                        "text": "Lorem ipsum 1",
+                        "correct": true
+                    },
+                    {
+                        "text": "Doler sit amet 2",
+                        "correct": false
+                    },
+                    {
+                        "text": "Sit amet lorem 3",
+                        "correct": false
+                    }
+                ],
+                "correct": {
+                    "title": "Lorem dipsum, well done!",
+                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                },
+                "incorrect": {
+                    "title": "Are you sure you are cut out for this business?",
+                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                }
+            }
+        ]
+    }
+}

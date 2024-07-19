@@ -1,9 +1,11 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "app/navigation";
 import { useEffect, useState } from "react";
 
 export default function Page() {
+  const t = useTranslations("global");
   const [score, setScore] = useState([]);
   const [totalScore, setTotalScore] = useState(0);
 
@@ -22,8 +24,8 @@ export default function Page() {
           <li key={i}>{s === 1 ? "🟢" : "🔴"}</li>
         ))}
       </ul>
-      <h1>Green Connection&apos;s Oil &amp; Water</h1>
-      <h2>Politics, petrochemicals and dogy deals</h2>
+      <h1>{t("title")}</h1>
+      <h2>{t("sub-title")}</h2>
       <p>
         You completed the scenarios. You got {totalScore} out of {score.length}.
       </p>
