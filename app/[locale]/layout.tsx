@@ -2,6 +2,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { getMessages } from "next-intl/server";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -36,6 +38,7 @@ export default async function RootLayout({
           </main>
         </NextIntlClientProvider>
       </body>
+      <GoogleAnalytics gaId="G-GB9C1NQ8N0" />
     </html>
   );
 }
