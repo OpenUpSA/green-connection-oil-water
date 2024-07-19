@@ -1,38 +1,39 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
-import Link from "next/link";
+import { Link } from "app/navigation";
 import { useEffect } from "react";
 
-import scenarios from "../../../data/scenarios.json";
+import scenarios from "../../../../data/scenarios.json";
 
 export default function Page({ params }: { params: { slug: string } }) {
+  const t = useTranslations("global");
   const scenario = scenarios.find((scenario) => scenario.slug === params.slug);
-
-  if (!scenario) {
-    redirect("/");
-  }
-
   const scenarioIndex = scenarios.findIndex((s) => s.slug === params.slug);
   const nextScenarioIndex =
     scenarios.findIndex((s) => s.slug === params.slug) + 1;
   const nextScenario = scenarios[nextScenarioIndex];
 
+  if (!scenario) {
+    redirect("/");
+  }
+
   useEffect(() => {
     const data = localStorage.getItem("score");
     if (data) {
       const score = JSON.parse(data);
-      score[scenarioIndex] = 1;
+      score[scenarioIndex] = 0;
       localStorage.setItem("score", JSON.stringify(score));
     }
-  }, []);
+  });
 
   return (
     <>
-      <h1>Green Connection&apos;s Oil &amp; Water</h1>
+      <h1>{t("title")}</h1>
       <h2>{scenario.title}</h2>
-      <h3>{scenario.correct.title}</h3>
-      <p>{scenario.correct.description}</p>
+      <h3>{scenario.incorrect.title}</h3>
+      <p>{scenario.incorrect.description}</p>
       {nextScenario ? (
         <Link
           href={`/scenarios/${nextScenario.slug}`}
