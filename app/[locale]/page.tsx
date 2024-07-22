@@ -28,7 +28,7 @@ export default function Page() {
       <p className="flex">
         <Link
           href="/intro"
-          className="flex justify-center items-center hover:bg-red-700 text-white mx-auto red-button sm:text-3xl sm:px-6 sm:py-3"
+          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button sm:text-3xl sm:px-6 sm:py-3"
         >
           {tP("get-started")}
           <svg
