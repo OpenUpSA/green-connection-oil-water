@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 
 export default function Page() {
   const t = useTranslations("global");
+  const tP = useTranslations("results");
+
   const [score, setScore] = useState([]);
   const [totalScore, setTotalScore] = useState(0);
 
@@ -25,15 +27,13 @@ export default function Page() {
         ))}
       </ul>
       <h1>{t("title")}</h1>
-      <h2>{t("sub-title")}</h2>
-      <p>
-        You completed the scenarios. You got {totalScore} out of {score.length}.
-      </p>
+      <h2>{tP("sub-title")}</h2>
+      <p>{tP("score", { totalScore: totalScore, score: score.length })}</p>
       <Link
-        href={`/`}
+        href={`/intro`}
         className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
       >
-        Start Over
+        {tP("start-over")}
       </Link>
     </>
   );
