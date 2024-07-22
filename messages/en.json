@@ -4,7 +4,8 @@
         "description": "by Green Connection and OpenUp"
     },
     "home": {
-        "intro": "Introduction"
+        "get-started": "Get started",
+        "credit": "A news game created by"
     },
     "intro": {
         "sub-title": "Introduction page sub-title",
@@ -17,8 +18,9 @@
         "start-over": "Start Over"
     },
     "global": {
-        "title": "Green Connection's Oil & Water",
-        "sub-title": "Politics, petrochemicals and dogy deals",
+        "title": "Green Connection's",
+        "title-name": "Oil & Water",
+        "sub-title": "Politics, petrochemicals and dodgy deals",
         "scenarios": [
             {
                 "slug": "getting-started",
