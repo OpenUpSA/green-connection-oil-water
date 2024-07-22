@@ -39,3 +39,5 @@ next-env.d.ts
 .netlify
 
 .DS_Store
+
+/cypress/screenshots
