@@ -13,10 +13,11 @@ const config: Config = {
     },
     extend: {
       fontSize: {
+        "less-big": ["10rem", "8rem"],
         big: ["11rem", "9rem"],
+        bigger: ["13rem", "11rem"],
       },
       colors: {
-        redish: "#ed1547",
         "light-blueish": "#3866f5",
         "dark-blueish": "#091c45",
       },

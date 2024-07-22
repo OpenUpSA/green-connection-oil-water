@@ -1,15 +1,9 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { getMessages } from "next-intl/server";
-import { Krub } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
-
-const krub = Krub({
-  weight: "400",
-  subsets: ["latin"],
-});
 
 export async function generateMetadata({
   params: { locale },
@@ -34,9 +28,9 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale}>
-      <body className={krub.className}>
+      <body>
         <NextIntlClientProvider messages={messages}>
-          <main className="flex h-screen flex-col p-5 max-w-7xl mx-auto">
+          <main className="flex h-screen flex-col p-2 max-w-7xl mx-auto">
             <div className="m-auto">
             {children}
             </div>

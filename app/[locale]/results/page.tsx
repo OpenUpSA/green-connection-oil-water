@@ -21,11 +21,13 @@ export default function Page() {
   }, []);
   return (
     <>
-      <ul className="flex flex-row gap-4">
-        {score.map((s, i) => (
-          <li key={i}>{s === 1 ? "🟢" : "🔴"}</li>
-        ))}
-      </ul>
+      <div className="grid justify-items-center">
+        <ul className="flex flex-row gap-4">
+          {score.map((s, i) => (
+            <li key={i}>{s === 1 ? "🟢" : "🔴"}</li>
+          ))}
+        </ul>
+      </div>
       <h1>{t("title")}</h1>
       <h2>{tP("sub-title")}</h2>
       <p>{tP("score", { totalScore: totalScore, score: score.length })}</p>
