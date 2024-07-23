@@ -29,6 +29,51 @@ export default function Page() {
       >
         {tP("get-started")}
       </Link>
+      <p>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmod
+      </p>
+      <p>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmod
+      </p>
+      <p>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmodlorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+        eiusmod
+      </p>
     </>
   );
 }

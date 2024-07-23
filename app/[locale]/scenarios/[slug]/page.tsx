@@ -37,19 +37,21 @@ export default function Page({ params }: { params: { slug: string } }) {
   }, []);
   return (
     <>
-      <ul className="flex flex-row gap-4">
-        {score.map((s, i) => (
-          <li key={i}>
-            {scenarioIndex === i
-              ? "🔵"
-              : s === -1
-              ? "⚪"
-              : s === 1
-              ? "🟢"
-              : "🔴"}
-          </li>
-        ))}
-      </ul>
+      <div className="grid justify-items-center">
+        <ul className="flex flex-row gap-4">
+          {score.map((s, i) => (
+            <li key={i}>
+              {scenarioIndex === i
+                ? "🔵"
+                : s === -1
+                ? "⚪"
+                : s === 1
+                ? "🟢"
+                : "🔴"}
+            </li>
+          ))}
+        </ul>
+      </div>
       <h1>{t("title")}</h1>
       <h2>{scenario.title}</h2>
       <h3>The setup</h3>

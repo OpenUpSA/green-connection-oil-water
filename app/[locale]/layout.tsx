@@ -1,12 +1,9 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { getMessages } from "next-intl/server";
-import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata({
   params: { locale },
@@ -31,10 +28,12 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body>
         <NextIntlClientProvider messages={messages}>
-          <main className="flex min-h-screen flex-col items-center justify-between p-5 max-w-md bg-slate-200 dark:bg-slate-900 mx-auto">
+          <main className="flex h-screen flex-col p-2 max-w-7xl mx-auto">
+            <div className="m-auto">
             {children}
+            </div>
           </main>
         </NextIntlClientProvider>
       </body>

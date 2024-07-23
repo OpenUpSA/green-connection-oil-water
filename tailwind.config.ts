@@ -7,11 +7,20 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Krub", "sans-serif"],
+      serif: ["NewTitle", "serif"],
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontSize: {
+        "less-big": ["10rem", "8rem"],
+        big: ["11rem", "9rem"],
+        bigger: ["13rem", "11rem"],
+      },
+      colors: {
+        "light-blueish": "#3866f5",
+        "dark-blueish": "#091c45",
+        "darker-blueish": "#091D45",
       },
     },
   },
