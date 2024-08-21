@@ -11,7 +11,11 @@
         "title": "Before you get started",
         "sub-title": "How does it work?",
         "get-started": "Get started",
-        "intro": "This game features <strong>8 scenarios</strong> that will put you in the drivers seat behind some of South Africa’s most pivotal energy sector decisions from the past 20 years."
+        "intro": "This game features <strong>8 scenarios</strong> that will put you in the drivers seat behind some of South Africa’s most pivotal energy sector decisions from the past 20 years.",
+        "your-role": {
+            "heading": "What's your role?",
+            "content": "In each of the 8 scenarios, you will be asked to act as the CEO of PetroSA for the period in question."
+        }
     },
     "debrief": {
         "title": "What now?",
