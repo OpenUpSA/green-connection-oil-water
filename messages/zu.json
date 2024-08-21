@@ -6,7 +6,7 @@
     "home": {
         "intro": "Isingeniso"
     },
-    "intro": {
+    "how-does-it-work": {
         "sub-title": "Introduction page sub-title",
         "get-started": "Qalisa",
         "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
@@ -28,24 +28,26 @@
                 "options": [
                     {
                         "text": "Refuse the deal and insist on a transparent tender process in line with procurement regulations",
-                        "correct": false
+                        "goto": "incorrect"
                     },
                     {
                         "text": "Refuse the deal and report the issue to parliamentary oversight committees",
-                        "correct": true
+                        "goto": "correct"
                     },
                     {
                         "text": "Hand over the cash!",
-                        "correct": false
+                        "goto": "incorrect"
                     }
                 ],
-                "correct": {
-                    "title": "You handed over the cash, well done!",
-                    "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
-                },
-                "incorrect": {
-                    "title": "Are you sure you are cut out for this business?",
-                    "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                "answers": {
+                    "correct": {
+                        "title": "You handed over the cash, well done!",
+                        "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                    },
+                    "incorrect": {
+                        "title": "Are you sure you are cut out for this business?",
+                        "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                    }
                 }
             },
             {
@@ -56,24 +58,26 @@
                 "options": [
                     {
                         "text": "Lorem ipsum 1",
-                        "correct": false
+                        "goto": "incorrect"
                     },
                     {
                         "text": "Doler sit amet 2",
-                        "correct": false
+                        "goto": "incorrect"
                     },
                     {
                         "text": "Sit amet lorem 3",
-                        "correct": true
+                        "goto": "correct"
                     }
                 ],
-                "correct": {
-                    "title": "Lorem dipsum, well done!",
-                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                },
-                "incorrect": {
-                    "title": "Are you sure you are cut out for this business?",
-                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                "answers": {
+                    "correct": {
+                        "title": "Lorem dipsum, well done!",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    },
+                    "incorrect": {
+                        "title": "Are you sure you are cut out for this business?",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                    }
                 }
             },
             {
@@ -84,24 +88,26 @@
                 "options": [
                     {
                         "text": "Lorem ipsum 1",
-                        "correct": true
+                        "goto": "correct"
                     },
                     {
                         "text": "Doler sit amet 2",
-                        "correct": false
+                        "goto": "incorrect"
                     },
                     {
                         "text": "Sit amet lorem 3",
-                        "correct": false
+                        "goto": "incorrect"
                     }
                 ],
-                "correct": {
-                    "title": "Lorem dipsum, well done!",
-                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                },
-                "incorrect": {
-                    "title": "Are you sure you are cut out for this business?",
-                    "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                "answers": {
+                    "correct": {
+                        "title": "Lorem dipsum, well done!",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    },
+                    "incorrect": {
+                        "title": "Are you sure you are cut out for this business?",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                    }
                 }
             }
         ]

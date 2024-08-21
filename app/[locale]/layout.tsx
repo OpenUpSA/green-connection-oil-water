@@ -1,7 +1,7 @@
-import { NextIntlClientProvider } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTimeZone, getTranslations } from "next-intl/server";
 import { getMessages } from "next-intl/server";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import IntlProvider from "./IntlProvider";
 
 import "./globals.css";
 
@@ -23,19 +23,19 @@ export default async function RootLayout({
   params: { locale },
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: string; timeZone: any };
 }) {
   const messages = await getMessages();
+  const timeZone = await getTimeZone();
+
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <IntlProvider messages={messages} locale={locale} timeZone={timeZone}>
           <main className="flex h-screen flex-col p-2 max-w-7xl mx-auto">
-            <div className="m-auto">
-            {children}
-            </div>
+            <div className="m-auto">{children}</div>
           </main>
-        </NextIntlClientProvider>
+        </IntlProvider>
       </body>
       <GoogleAnalytics gaId="G-GB9C1NQ8N0" />
     </html>
