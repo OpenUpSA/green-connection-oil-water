@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
-import { Link } from "app/navigation";
+import { Link } from "app/[locale]/navigation";
 
 import {
   AwaitedReactNode,
@@ -24,31 +24,15 @@ export default function Page({ params }: { params: { slug: string } }) {
   const scenarioIndex = scenarios.findIndex(
     (s: { slug: string }) => s.slug === params.slug
   );
-  const [score, setScore] = useState([]);
   if (!scenario) {
     redirect("/");
   }
-  useEffect(() => {
-    const data = localStorage.getItem("score");
-    if (data) {
-      const jsonData = JSON.parse(data);
-      setScore(jsonData);
-    }
-  }, []);
   return (
     <>
       <div className="grid justify-items-center">
         <ul className="flex flex-row gap-4">
-          {score.map((s, i) => (
-            <li key={i}>
-              {scenarioIndex === i
-                ? "🔵"
-                : s === -1
-                ? "⚪"
-                : s === 1
-                ? "🟢"
-                : "🔴"}
-            </li>
+          {scenarios.map((s: any, i: number) => (
+            <li key={i}>{scenarioIndex >= i ? "🔵" : "⚪"}</li>
           ))}
         </ul>
       </div>
@@ -61,16 +45,12 @@ export default function Page({ params }: { params: { slug: string } }) {
       <h3>Your options</h3>
       <ul>
         {scenario.options.map(
-          (option: { correct: any; text: string }, index: Key) => (
+          (option: { goto: string; text: string }, index: Key) => (
             <li key={index} className="mb-5">
-              <Link
-                href={`/scenarios/${scenario.slug}/${
-                  option.correct ? "correct" : "incorrect"
-                }`}
-              >
+              <Link href={`/scenarios/${scenario.slug}/${option.goto}`}>
                 <label style={{ display: "flex", alignItems: "center" }}>
                   <input type="radio" className="mr-5" />
-                  {option.text} ({option.correct ? "correct" : "incorrect"})
+                  {option.text}
                 </label>
               </Link>
             </li>

@@ -1,4 +1,4 @@
-# Green Connection's Oil & Water
+# Green Connection Game
 
 [![Tests](https://github.com/OpenUpSA/green-connection-oil-water/actions/workflows/cypress.yml/badge.svg)](https://github.com/OpenUpSA/green-connection-oil-water/actions/workflows/cypress.yml)
 

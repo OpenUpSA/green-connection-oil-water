@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "app/navigation";
+import { Link } from "app/[locale]/navigation";
 import Image from "next/image";
 
 export default function Page() {
@@ -10,11 +10,15 @@ export default function Page() {
 
   return (
     <>
-      <h1 className="text-dark-blueish p-0 sm:text-3xl sm:mb-2">{t("title")}</h1>
+      <h1 className="text-dark-blueish p-0 sm:text-3xl sm:mb-2">
+        {t("title")}
+      </h1>
       <h2 className="text-bigger sm:text-less-big md:text-big text-light-blueish p-0">
         {t("title-name")}
       </h2>
-      <h3 className="text-dark-blueish sm:text-2xl sm:mb-2">{t("sub-title")}</h3>
+      <h3 className="text-dark-blueish sm:text-2xl sm:mb-2">
+        {t("sub-title")}
+      </h3>
       <p className="m-9 pb-6 sm:mb-8 sm:mt-7">
         <Image
           src="/images/home.png"
@@ -27,7 +31,7 @@ export default function Page() {
       </p>
       <p className="flex">
         <Link
-          href="/intro"
+          href="/how-does-it-work"
           className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button sm:text-3xl sm:px-6 sm:py-3"
         >
           {tP("get-started")}

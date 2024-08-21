@@ -30,6 +30,13 @@ body {
   }
 
   @font-face {
+    font-family: Krub-Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/Krub-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
     font-family: NewTitle-Regular;
     font-style: normal;
     src: url("/fonts/NewTitle-Regular.ttf") format("truetype");
@@ -95,5 +102,10 @@ body {
     font-family: Caveat, sans-serif;
     letter-spacing: -0.72px;
     text-align: center;
+  }
+
+  strong {
+    font-family: Krub-Bold, sans-serif;
+    font-weight: 700;
   }
 }
