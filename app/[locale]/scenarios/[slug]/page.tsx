@@ -4,16 +4,7 @@ import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
 import { Link } from "app/[locale]/navigation";
 
-import {
-  AwaitedReactNode,
-  JSXElementConstructor,
-  Key,
-  ReactElement,
-  ReactNode,
-  ReactPortal,
-  useEffect,
-  useState,
-} from "react";
+import { Key } from "react";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const t = useTranslations("global");
