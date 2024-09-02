@@ -11,7 +11,40 @@
         "title": "Before you get started",
         "sub-title": "How does it work?",
         "get-started": "Get started",
-        "intro": "This game features <strong>8 scenarios</strong> that will put you in the drivers seat behind some of South Africa’s most pivotal energy sector decisions from the past 20 years."
+        "intro": "This game features <strong>8 scenarios</strong> that will put you in the drivers seat behind some of South Africa’s most pivotal energy sector decisions from the past 20 years.",
+        "your-role": {
+            "heading": "What's your role?",
+            "content": "In each of the 8 scenarios, you will be asked to act as the CEO of PetroSA for the period in question."
+        },
+        "what-is-petro-sa": {
+            "heading": "Who or what is PetroSA?",
+            "content": "PetroSA is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), and it reports to the Department of Energy. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing gas to liquid (GTL) refineries."
+        },
+        "scenario-steps": {
+            "heading": "Scenario steps",
+            "content": "Each scenario will guide you through 4 steps to get you up to speed, present you with a dilemma and a set of decisions, and then give you the information about what really happened!"
+        },
+        "step-1": {
+            "label": "Step 1",
+            "heading": "The set-up",
+            "content": "Read the briefing and check out the investigation board to understand the factors at play in each scenario."
+        },
+        "step-2": {
+            "label": "Step 2",
+            "heading": "The dilemma",
+            "content": "You will be presented with a dilemma from the past that will test your moral and ethical boundaries."
+        },
+        "step-3": {
+            "label": "Step 3",
+            "heading": "The choices",
+            "content": "Assess your options and make the choice that feels right to you!"
+        },
+        "step-4": {
+            "label": "Step 4",
+            "heading": "The real story",
+            "content": "See how your answer compares to the decision that was actually taken and get more information about what went down. You might be surprised!"
+        },
+        "end-line": "Ready to get started? Good luck!"
     },
     "debrief": {
         "title": "What now?",

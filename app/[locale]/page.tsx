@@ -4,7 +4,11 @@ import { useTranslations } from "next-intl";
 import { Link } from "app/[locale]/navigation";
 import Image from "next/image";
 
-export default function Page() {
+export default function Page({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
   const t = useTranslations("global");
   const tP = useTranslations("home");
 
@@ -21,7 +25,7 @@ export default function Page() {
       </h3>
       <p className="m-9 pb-6 sm:mb-8 sm:mt-7">
         <Image
-          src="/images/home.png"
+          src={`/images/${locale}/home/main.png`}
           alt="Home"
           width={950}
           height={839}

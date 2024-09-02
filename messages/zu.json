@@ -4,7 +4,8 @@
         "description": "by Green Connection and OpenUp"
     },
     "home": {
-        "intro": "Isingeniso"
+        "get-started": "How does it work?",
+        "credit": "A news game created by"
     },
     "how-does-it-work": {
         "sub-title": "Introduction page sub-title",
@@ -18,6 +19,7 @@
     },
     "global": {
         "title": "Amafutha Namanzi E-Green Connection",
+        "title-name": "Gaslit!",
         "sub-title": "Ezombusazwe, amakhemikhali e-petrochemicals kanye nezivumelwano ze-dog",
         "scenarios": [
             {
