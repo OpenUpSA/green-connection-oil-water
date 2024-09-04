@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
 import { Link } from "app/[locale]/navigation";
 
-//import scenarios from "../../../../data/scenarios.json";
+import { ReferencesList } from "components/referencesList";
 
 export default function Page({
   params,
@@ -52,6 +52,12 @@ export default function Page({
         >
           {t("finish")}
         </Link>
+      )}
+      {scenario.references && (
+        <>
+          <h3>{t("references")}</h3>
+          <ReferencesList references={scenario.references} />
+        </>
       )}
     </>
   );
