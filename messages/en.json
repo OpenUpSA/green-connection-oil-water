@@ -50,7 +50,19 @@
         "title": "What now?",
         "sub-title": "The debrief",
         "intro": "So you’re done playing... what next?",
-        "references": "References"
+        "references": "References",
+        "share-the-game": {
+            "heading": "Share the game",
+            "text": "Please help us spread this story far and wide by sharing this game with friends and family!"
+        },
+        "follow-green-connection": {
+            "heading": "Follow Green Connection",
+            "text": "Needless to say, the story is far from over. The Green Connection team will be staying on top of the PetroSA saga and helping to keep the public informed as developments take place. "
+        },
+        "check-our-sources": {
+            "heading": "Check our sources",
+            "text": "Curious about where the data that went into each scenario came from? Check out our our full list of references to do some more reading and learning more about each scenario."
+        }
     },
     "references": {
         "title": "Want to learn more?",
