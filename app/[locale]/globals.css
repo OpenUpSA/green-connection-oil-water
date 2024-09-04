@@ -120,4 +120,12 @@ body {
   .ff-krub-bold {
     font-family: Krub-Bold, sans-serif;
   }
+
+  .ff-new-title-regular {
+    font-family: NewTitle-Regular, sans-serif;
+  }
+
+  .ff-new-title-bold {
+    font-family: NewTitle-Bold, sans-serif;
+  }
 }

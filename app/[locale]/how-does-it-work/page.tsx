@@ -26,7 +26,7 @@ export default function Page({
           width={950}
           height={839}
           sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
-          className="display-block max-w-lg"
+          className="display-block max-w-lg mx-auto"
         />
         {tP("your-role.content")}
       </p>
@@ -44,7 +44,7 @@ export default function Page({
           width={950}
           height={135}
           sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
-          className="display-block max-w-lg"
+          className="display-block max-w-lg mx-auto"
         />
         {tP("step-1.content")}
       </p>
@@ -58,7 +58,7 @@ export default function Page({
           width={950}
           height={135}
           sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
-          className="display-block max-w-lg"
+          className="display-block max-w-lg mx-auto"
         />
         {tP("step-2.content")}
       </p>
@@ -72,7 +72,7 @@ export default function Page({
           width={950}
           height={135}
           sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
-          className="display-block max-w-lg"
+          className="display-block max-w-lg mx-auto"
         />
         {tP("step-3.content")}
       </p>
@@ -86,7 +86,7 @@ export default function Page({
           width={950}
           height={135}
           sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
-          className="display-block max-w-lg"
+          className="display-block max-w-lg mx-auto"
         />
         {tP("step-4.content")}
       </p>
