@@ -65,6 +65,7 @@
         "scenario-count": "Scenario ",
         "next-scenario": "Next scenario",
         "finish": "Finish!",
+        "references": "References",
         "scenarios": [
             {
                 "format": "normal",
@@ -110,7 +111,17 @@
                         "title": "Are you sure you are cut out for this business?",
                         "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
                     }
-                }
+                },
+                "references": [
+                    {
+                        "title": "Mail & Guardian",
+                        "url": "https://mg.co.za/article/2005-07-15-oilgate-company-was-anc-front/"
+                    },
+                    {
+                        "title": "Volker Report (UN)",
+                        "url": "https://web.archive.org/web/20130823070841/http://www.iic-offp.org/documents/IIC%20Final%20Report%2027Oct2005.pdf"
+                    }
+                ]
             },
             {
                 "format": "bonus",
@@ -142,16 +153,20 @@
                         "image": "climate-smart-is-economy-smart.png"
                     }
                 ],
-                "answers": {
-                    "correct": {
-                        "title": "You handed over the cash, well done!",
-                        "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                "references": [
+                    {
+                        "url": "https://www.iol.co.za/business-report/economy/petrosa-eyes-gtl-projects-in-egypt-colombia-and-qatar-734990"
                     },
-                    "incorrect": {
-                        "title": "Are you sure you are cut out for this business?",
-                        "description": "PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government&apos;s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here&apos;s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on."
+                    {
+                        "url": "https://www.iol.co.za/business-report/companies/petrosa-lands-exploration-rights-in-egypts-gulf-of-suez-732286"
+                    },
+                    {
+                        "url": "https://egyptoil-gas.com/news/petrosa-withdraws-from-the-egyptian-sector/"
+                    },
+                    {
+                        "url": "https://www.imf.org/en/Countries/MOZ"
                     }
-                }
+                ]
             },
             {
                 "format": "normal",
@@ -190,7 +205,15 @@
                         "title": "Are you sure you are cut out for this business?",
                         "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
                     }
-                }
+                },
+                "references": [
+                    {
+                        "url": "https://www.petroleumafrica.com/petrosa-faces-legal-action/"
+                    },
+                    {
+                        "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
+                    }
+                ]
             },
             {
                 "format": "no-correct-incorrect",
