@@ -43,14 +43,14 @@ export default function Page({
           href={`/scenarios/${nextScenario.slug}`}
           className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
         >
-          Next Scenario
+          {t("next-scenario")}
         </Link>
       ) : (
         <Link
           href={`/debrief`}
           className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
         >
-          Finish!
+          {t("finish")}
         </Link>
       )}
     </>
