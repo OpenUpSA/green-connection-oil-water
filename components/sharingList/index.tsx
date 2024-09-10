@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-export function SharingList() {
+export function SharingList({ bgColorClass }: { bgColorClass: string }) {
   const [copyLinkPing, setCopyLinkPing] = useState(false);
   const copyLink = (e: any) => {
     setCopyLinkPing(true);
@@ -13,13 +13,19 @@ export function SharingList() {
     setTimeout(() => setCopyLinkPing(false), 750);
   };
 
+  const urlToShare = encodeURIComponent(
+    "https://green-connection-oil-water.netlify.app/en/debrief"
+  );
+
   return (
     <ul className="flex flex-row gap-4">
       <li>
         <button
           onClick={copyLink}
           className={
-            "rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center" +
+            `rounded-full	${
+              bgColorClass ? bgColorClass : "bg-red-500"
+            } h-11 w-11 text-center flex justify-center items-center` +
             (copyLinkPing ? " animate-ping" : "")
           }
         >
@@ -33,9 +39,11 @@ export function SharingList() {
       </li>
       <li>
         <a
-          href="https://facebook.com?url=fillin"
+          href={`https://web.facebook.com/share_channel/?link=${urlToShare}&app_id=966242223397117&source_surface=external_reshare&display&hashtag`}
           target="_blank"
-          className="display-block rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center"
+          className={`display-block rounded-full ${
+            bgColorClass ? bgColorClass : "bg-red-500"
+          } h-11 w-11 text-center flex justify-center items-center`}
         >
           <Image
             src="/images/social/facebook.png"
@@ -47,9 +55,11 @@ export function SharingList() {
       </li>
       <li>
         <a
-          href="https://linkedin.com?url=fillin"
+          href={`https://www.linkedin.com/feed/?shareActive=true&shareUrl=${urlToShare}`}
           target="_blank"
-          className="display-block rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center"
+          className={`display-block rounded-full	${
+            bgColorClass ? bgColorClass : "bg-red-500"
+          } h-11 w-11 text-center flex justify-center items-center`}
         >
           <Image
             src="/images/social/linkedin.png"
@@ -61,9 +71,11 @@ export function SharingList() {
       </li>
       <li>
         <a
-          href="https://twitter.com?url=fillin"
+          href={`https://x.com/intent/tweet?url=${urlToShare}`}
           target="_blank"
-          className="display-block rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center"
+          className={`display-block rounded-full	${
+            bgColorClass ? bgColorClass : "bg-red-500"
+          } h-11 w-11 text-center flex justify-center items-center`}
         >
           <Image
             src="/images/social/twitter.png"
