@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export function SharingList({ bgColorClass }: { bgColorClass: string }) {
+export function SharingList({ bgColorClass }: { bgColorClass?: string }) {
   const [copyLinkPing, setCopyLinkPing] = useState(false);
   const copyLink = (e: any) => {
     setCopyLinkPing(true);

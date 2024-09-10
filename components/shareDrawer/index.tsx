@@ -7,11 +7,11 @@ import { useState } from "react";
 import { SharingList } from "components/sharingList";
 
 export function ShareDrawer() {
+  const [showShareDrawer, setShowShareDrawer] = useState(false);
+
   // Do not show share drawer on home or debrief pages
   const path = usePathname();
   if (path.indexOf("debrief") > 1 || path.indexOf("/", 1) == -1) return;
-
-  const [showShareDrawer, setShowShareDrawer] = useState(false);
 
   const toggleShareDrawer = (e: any) => {
     setShowShareDrawer(!showShareDrawer);
