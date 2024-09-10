@@ -128,4 +128,12 @@ body {
   .ff-new-title-bold {
     font-family: NewTitle-Bold, sans-serif;
   }
+
+  .bg-dark-blue {
+    background: #091c45;
+  }
+
+  .inset-b-50 {
+    bottom: 50%;
+  }
 }
