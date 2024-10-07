@@ -29,7 +29,7 @@ export default function Page({
     scenarios.findIndex((s: any) => s.slug === slug) + 1;
   const nextScenario = scenarios[nextScenarioIndex];
   return (
-    <>
+    <Fragment>
       {scenario.format != "bonus" && (
         <img src="/images/pin-header.png" className="overlay-pin-header" />
       )}
@@ -84,7 +84,7 @@ export default function Page({
         )
       )}
       {scenario.options ? (
-        <>
+        <Fragment>
           <h3 className="has-title-background-line mt-5 mb-[6rem] text-5xl">
             <span className="text-dark-blueish has-title-tail bg-zinc-100 px-6 pt-2 pb-[4rem]">
               {t("your-options")}
@@ -113,21 +113,47 @@ export default function Page({
               )
             )}
           </ul>
-        </>
+        </Fragment>
       ) : (
         <Link
           href={`/scenarios/${nextScenario.slug}`}
-          className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button my-5"
         >
-          {t("next-scenario")}
+          {t(nextScenario ? "next-scenario" : "finish")}
+          <svg
+            viewBox="0 0 43 25"
+            fill="none"
+            width="100%"
+            vector-path="non-scaling-stroke"
+            aria-hidden="true"
+            height="100%"
+            className="float-right ml-4 font-serif"
+          >
+            <path
+              d="M1.86133 15.1452C14.0743 13.8597 26.4378 14.3777 38.7025 14.3777"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+            ></path>
+            <path
+              d="M27.8899 2.21729C30.6493 5.16986 33.4775 7.9993 36.657 10.5025C37.7327 11.3494 38.8318 12.1638 39.8748 13.0519C40.1256 13.2654 41.0406 13.9036 41.1339 14.3265C41.2152 14.695 40.2525 15.3177 40.1157 15.4302C39.1696 16.2081 38.207 16.9654 37.2633 17.7463C35.2485 19.4135 33.2496 21.101 31.2475 22.7828"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+            ></path>
+          </svg>
         </Link>
       )}
       {!scenario.options && scenario.references && (
-        <>
-          <h3>{t("references")}</h3>
+        <Fragment>
+          <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
+            <span className="text-dark-blueish has-title-underline bg-zinc-100 px-6 py-2 text-5xl">
+              {t("references")}
+            </span>
+          </h2>
           <ReferencesList references={scenario.references} />
-        </>
+        </Fragment>
       )}
-    </>
+    </Fragment>
   );
 }

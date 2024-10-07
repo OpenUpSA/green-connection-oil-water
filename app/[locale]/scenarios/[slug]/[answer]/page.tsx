@@ -6,6 +6,7 @@ import { Link } from "app/[locale]/navigation";
 
 import { ReferencesList } from "components/referencesList";
 import { Progress } from "@/components/progress";
+import { Fragment } from "react";
 
 export default function Page({
   params,
@@ -27,7 +28,7 @@ export default function Page({
   const nextScenario = scenarios[nextScenarioIndex];
 
   return (
-    <>
+    <Fragment>
       <img
         src={`/images/pin-${answer}.png`}
         className="overlay-pin-answer-header"
@@ -79,15 +80,15 @@ export default function Page({
         className="display-block my-5"
       />
       {scenario.references && (
-        <>
+        <Fragment>
           <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
             <span className="text-dark-blueish has-title-underline bg-zinc-100 px-6 py-2 text-5xl">
               {t("references")}
             </span>
           </h2>
           <ReferencesList references={scenario.references} />
-        </>
+        </Fragment>
       )}
-    </>
+    </Fragment>
   );
 }
