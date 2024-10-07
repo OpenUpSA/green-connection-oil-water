@@ -93,9 +93,18 @@ export default function Page({
           <ul>
             {scenario.options.map(
               (option: { goto: string; text: string }, index: Key) => (
-                <li key={index} className="mb-5 has-option-background py-6 animate-slide-up">
-                  <Link href={`/scenarios/${scenario.slug}/${option.goto}`} className="block bg-white pt-7 pb-1">
-                    <label style={{ display: "flex", alignItems: "center" }} className="has-option-circle-background block pl-[5.5rem] pr-5 cursor-pointer min-h-10">
+                <li
+                  key={index}
+                  className="mb-5 has-option-background py-6 animate-slide-up"
+                >
+                  <Link
+                    href={`/scenarios/${scenario.slug}/${option.goto}`}
+                    className="block bg-white pt-7 pb-1"
+                  >
+                    <label
+                      style={{ display: "flex", alignItems: "center" }}
+                      className="has-option-circle-background block pl-[5.5rem] pr-5 cursor-pointer min-h-10"
+                    >
                       <input type="radio" className="hidden" />
                       {option.text}
                     </label>
