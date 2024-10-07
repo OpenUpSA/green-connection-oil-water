@@ -14,30 +14,26 @@ export default function Page({
 
   return (
     <>
-      <img src="/images/pin-header.png" className="overlay-pin-header overlay-img-top-right overlay-img-retract-up" />
-      <h1 className="text-dark-blueish p-0">
-        {t("title")}
-      </h1>
-      <h2 className="text-bigger text-light-blueish p-0">
-        {t("title-name")}
-      </h2>
-      <h3 className="text-dark-blueish text-2xl">
-        {t("sub-title")}
-      </h3>
-      <p className="pb-6 items-center flex">
-        <Image
-          src={`/images/${locale}/home/main.png`}
-          alt="Home"
-          width={950}
-          height={839}
-          sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
-          className="display-block max-w-lg"
-        />
-      </p>
+      <img
+        src="/images/pin-header.png"
+        className="overlay-pin-header overlay-img-retract-up ml-[4rem] md:ml-[8rem]"
+        width="273"
+        height="173"
+      />
+      <h1 className="text-dark-blueish p-0">{t("title")}</h1>
+      <h2 className="text-bigger text-light-blueish p-0">{t("title-name")}</h2>
+      <h3 className="text-dark-blueish text-2xl">{t("sub-title")}</h3>
+      <img
+        src={`/images/${locale}/home/main.png`}
+        alt="Home"
+        width={950}
+        height={839}
+        className="display-block mt-5 transform-scale-130"
+      />
       <p className="flex">
         <Link
           href="/how-does-it-work"
-          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button"
+          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button mt-7"
         >
           {tP("get-started")}
           <svg
