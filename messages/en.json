@@ -10,40 +10,54 @@
     "how-does-it-work": {
         "title": "Before you get started",
         "sub-title": "How does it work?",
-        "get-started": "Get started",
-        "intro": "This game features <strong>8 scenarios</strong> that will put you in the drivers seat behind some of South Africa’s most pivotal energy sector decisions from the past 20 years.",
-        "your-role": {
-            "heading": "What's your role?",
-            "content": "In each of the 8 scenarios, you will be asked to act as the CEO of PetroSA for the period in question."
-        },
-        "what-is-petro-sa": {
-            "heading": "Who or what is PetroSA?",
-            "content": "PetroSA is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), and it reports to the Department of Energy. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing gas to liquid (GTL) refineries."
-        },
-        "scenario-steps": {
-            "heading": "Scenario steps",
-            "content": "Each scenario will guide you through 4 steps to get you up to speed, present you with a dilemma and a set of decisions, and then give you the information about what really happened!"
-        },
-        "step-1": {
-            "label": "Step 1",
-            "heading": "The set-up",
-            "content": "Read the briefing and check out the investigation board to understand the factors at play in each scenario."
-        },
-        "step-2": {
-            "label": "Step 2",
-            "heading": "The dilemma",
-            "content": "You will be presented with a dilemma from the past that will test your moral and ethical boundaries."
-        },
-        "step-3": {
-            "label": "Step 3",
-            "heading": "The choices",
-            "content": "Assess your options and make the choice that feels right to you!"
-        },
-        "step-4": {
-            "label": "Step 4",
-            "heading": "The real story",
-            "content": "See how your answer compares to the decision that was actually taken and get more information about what went down. You might be surprised!"
-        },
+        "get-started": "Start the first scenario!",
+        "sections": [
+            {
+                "label": "Step 1",
+                "heading": "Discover your role",
+                "image": {
+                    "filename": "your-role.png",
+                    "alt": "Image of silhouetted portraits"
+                },
+                "text": "You are the head of PetroSA. This is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), and it reports to the Department of Energy. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing gas to liquid (GTL) refineries."
+            },
+            {
+                "label": "Step 2",
+                "heading": "Get the low down",
+                "image": {
+                    "filename": "the-investigation-board.png",
+                    "alt": "Cork board with post it notes"
+                },
+                "text": "Read the briefing and check out the investigation board to understand the factors at play in this scenario."
+            },
+            {
+                "label": "Step 3",
+                "heading": "Assess the dilemma",
+                "image": {
+                    "filename": "real-story.png",
+                    "alt": "Photos, note, and money"
+                },
+                "text": "You will be presented with a dilemma from the past that will test your moral and ethical boundaries."
+            },
+            {
+                "label": "Step 4",
+                "heading": "Make your choice",
+                "image": {
+                    "filename": "choices.png",
+                    "alt": "The letters A, B, C, and D encircled with B highlighted in red"
+                },
+                "text": "Assess your options and make the choice that feels right to you!"
+            },
+            {
+                "label": "Step 5",
+                "heading": "See what happened",
+                "image": {
+                    "filename": "money-form-who.png",
+                    "alt": "Pinned note"
+                },
+                "text": "See how your answer compares to the decision that was actually taken and get more information about what went down. You might be surprised!"
+            }
+        ],
         "end-line": "Ready to get started? Good luck!"
     },
     "debrief": {
@@ -141,6 +155,9 @@
                 "title": "Before you continue!",
                 "sections": [
                     {
+                        "image": "title.png"
+                    },
+                    {
                         "image": "what-are-stranded-assets.png"
                     },
                     {
@@ -226,6 +243,146 @@
                         "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
                     }
                 ]
+            },
+            {
+                "format": "no-correct-incorrect",
+                "slug": "lorem-ipsum-doler-2",
+                "title": "Lorem ipsum doler 2",
+                "sections": [
+                    {
+                        "heading": "The set-up",
+                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Lorem ipsum 1",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Doler sit amet 2",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Sit amet lorem 3",
+                        "goto": "answer"
+                    }
+                ],
+                "answers": {
+                    "answer": {
+                        "title": "Lorem dipsum!",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                }
+            },
+            {
+                "format": "no-correct-incorrect",
+                "slug": "lorem-ipsum-doler-2",
+                "title": "Lorem ipsum doler 2",
+                "sections": [
+                    {
+                        "heading": "The set-up",
+                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Lorem ipsum 1",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Doler sit amet 2",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Sit amet lorem 3",
+                        "goto": "answer"
+                    }
+                ],
+                "answers": {
+                    "answer": {
+                        "title": "Lorem dipsum!",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                }
+            },
+            {
+                "format": "no-correct-incorrect",
+                "slug": "lorem-ipsum-doler-2",
+                "title": "Lorem ipsum doler 2",
+                "sections": [
+                    {
+                        "heading": "The set-up",
+                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Lorem ipsum 1",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Doler sit amet 2",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Sit amet lorem 3",
+                        "goto": "answer"
+                    }
+                ],
+                "answers": {
+                    "answer": {
+                        "title": "Lorem dipsum!",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                }
+            },
+            {
+                "format": "no-correct-incorrect",
+                "slug": "lorem-ipsum-doler-2",
+                "title": "Lorem ipsum doler 2",
+                "sections": [
+                    {
+                        "heading": "The set-up",
+                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Lorem ipsum 1",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Doler sit amet 2",
+                        "goto": "answer"
+                    },
+                    {
+                        "text": "Sit amet lorem 3",
+                        "goto": "answer"
+                    }
+                ],
+                "answers": {
+                    "answer": {
+                        "title": "Lorem dipsum!",
+                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    }
+                }
             },
             {
                 "format": "no-correct-incorrect",

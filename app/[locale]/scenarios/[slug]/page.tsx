@@ -3,10 +3,10 @@
 import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
 import { Link } from "app/[locale]/navigation";
-import Image from "next/image";
 import { Key } from "react";
 
 import { ReferencesList } from "components/referencesList";
+import { Progress } from "@/components/progress";
 
 export default function Page({
   params,
@@ -30,20 +30,21 @@ export default function Page({
   const nextScenario = scenarios[nextScenarioIndex];
   return (
     <>
-      <div className="grid justify-items-center">
-        <ul className="flex flex-row gap-4">
-          {scenarios.map((s: any, i: number) => (
-            <li key={i}>{scenarioIndex >= i ? "🔵" : "⚪"}</li>
-          ))}
-        </ul>
-      </div>
-      <p className="text-center ff-new-title-regular text-2xl">
-        {t("scenario-count")}
-        {scenarioIndex + 1}
-      </p>
+      {scenario.format != "bonus" && (
+        <img src="/images/pin-header.png" className="overlay-pin-header" />
+      )}
+      {scenario.format == "bonus" && (
+        <img src="/images/pin-bonus.png" className="overlay-pin-bonus" />
+      )}
+      <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
+      {scenario.format != "bonus" && (
+        <p className="text-center ff-new-title-regular text-2xl">
+          {t("scenario-count")}
+          {scenarioIndex + 1}
+        </p>
+      )}
       <h1 className="hidden">{t("title")}</h1>
-
-      <h2>{scenario.title}</h2>
+      {scenario.format != "bonus" && <h2>{scenario.title}</h2>}
       {scenario["sub-title"] && (
         <h3 className="text-dark-blueish sm:text-2xl sm:mb-2">
           {scenario["sub-title"]}
@@ -53,13 +54,10 @@ export default function Page({
         (section: { image: string; heading: string; text: string }) => (
           <>
             {section.image && (
-              <Image
+              <img
                 src={`/images/${locale}/scenarios/${slug}/${section.image}`}
                 alt={scenario.title}
-                sizes="(max-width: 479px) 457.5625px, (max-width: 767px) 100vw, (max-width: 991px) 93vw, 900px"
                 className="display-block max-w-lg mx-auto"
-                width="479"
-                height="479"
               />
             )}
 

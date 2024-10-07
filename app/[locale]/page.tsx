@@ -14,16 +14,17 @@ export default function Page({
 
   return (
     <>
-      <h1 className="text-dark-blueish p-0 sm:text-3xl sm:mb-2">
+      <img src="/images/pin-header.png" className="overlay-pin-header overlay-img-top-right overlay-img-retract-up" />
+      <h1 className="text-dark-blueish p-0">
         {t("title")}
       </h1>
-      <h2 className="text-bigger sm:text-less-big md:text-big text-light-blueish p-0">
+      <h2 className="text-bigger text-light-blueish p-0">
         {t("title-name")}
       </h2>
-      <h3 className="text-dark-blueish sm:text-2xl sm:mb-2">
+      <h3 className="text-dark-blueish text-2xl">
         {t("sub-title")}
       </h3>
-      <p className="m-9 pb-6 sm:mb-8 sm:mt-7">
+      <p className="pb-6 items-center flex">
         <Image
           src={`/images/${locale}/home/main.png`}
           alt="Home"
@@ -36,7 +37,7 @@ export default function Page({
       <p className="flex">
         <Link
           href="/how-does-it-work"
-          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button sm:text-3xl sm:px-6 sm:py-3"
+          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button"
         >
           {tP("get-started")}
           <svg
@@ -63,7 +64,7 @@ export default function Page({
           </svg>
         </Link>
       </p>
-      <p className="text-center m-7 mt-10 text-2xl sm:text-base sm:mt-5">
+      <p className="text-center m-7 mt-10 text-sm">
         {tP("credit")}{" "}
         <Link
           href="https://openup.org.za"

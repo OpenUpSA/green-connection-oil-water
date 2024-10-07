@@ -65,7 +65,7 @@ body {
     font-family: Newtitle-Regular;
     background-color: var(--redish);
     color: var(--button-text);
-    font-size: 3rem;
+    font-size: 1.75rem;
     border-radius: var(--border-radius);
     padding: 0.75rem 3rem;
 
@@ -136,4 +136,43 @@ body {
   .inset-b-50 {
     bottom: 50%;
   }
+
+  .overlay-pin-header {
+    pointer-events: none;
+    position: absolute;
+    top: -14px;
+  }
+
+  .overlay-pin-answer-header {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .overlay-pin-bonus {
+    pointer-events: none;
+    position: absolute;
+    top: 1.7rem;
+    left: 50%;
+    margin-left: -5.7rem;
+  }
+
+  .overlay-img-top-right {
+    margin-left: 4rem;
+  }
+
+  .overlay-img-top-left {
+    margin-left: -14rem;
+  }
+
+  .overlay-img-retract-up {
+    top: -75px;
+  }
+}
+
+.has-title-ring {
+  background-image: url(/images/title-ring.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
 }

@@ -34,8 +34,8 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <IntlProvider messages={messages} locale={locale} timeZone={timeZone}>
-          <main className="flex h-screen flex-col p-2 max-w-7xl mx-auto">
-            <div className="m-auto">{children}</div>
+          <main className="px-5 py-10 max-w-sm md:max-w-lg mx-auto overflow-hidden">
+            {children}
           </main>
           <ShareDrawer />
         </IntlProvider>
