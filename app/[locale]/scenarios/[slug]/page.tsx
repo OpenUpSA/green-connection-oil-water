@@ -60,7 +60,7 @@ export default function Page({
               <img
                 src={`/images/${locale}/scenarios/${slug}/${section.image}`}
                 alt={scenario.title}
-                className="display-block my-5"
+                className="display-block my-5 w-full"
               />
             )}
 

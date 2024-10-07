@@ -68,17 +68,21 @@ export default function Page({
           </svg>
         </Link>
       </p>
-      <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
-        <span className="text-dark-blueish has-title-underline bg-zinc-100 px-6 py-2 text-5xl">
-          {t("learn-more")}
-        </span>
-      </h2>
-      <p className="text-center">{scenario["learn-more"]}</p>
-      <img
-        src={`/images/${locale}/scenarios/${slug}/learn-more.png`}
-        alt={t("learn-more")}
-        className="display-block my-5"
-      />
+      {scenario["learn-more"] && (
+        <Fragment>
+          <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
+            <span className="text-dark-blueish has-title-underline bg-zinc-100 px-6 py-2 text-5xl">
+              {t("learn-more")}
+            </span>
+          </h2>
+          <p className="text-center">{scenario["learn-more"]}</p>
+          <img
+            src={`/images/${locale}/scenarios/${slug}/learn-more.png`}
+            alt={t("learn-more")}
+            className="display-block my-5"
+          />
+        </Fragment>
+      )}
       {scenario.references && (
         <Fragment>
           <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
