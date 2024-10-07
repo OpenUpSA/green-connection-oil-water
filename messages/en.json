@@ -100,15 +100,19 @@
                 "sub-title": "2002 - 2004",
                 "sections": [
                     {
-                        "heading": "The set-up",
-                        "text": "Congratulations! You have just been appointment as CEO of the newly formed SOE, PetroSA. One of your first tasks is to secure a supply of oil for the Strategic Fuel Fund (SFF - aka “the strategic reserve”)."
+                        "heading": "Set-up",
+                        "text": "Congratulations on your appointment to the newly formed SOE, PetroSA. A politically linked company has a deal via Glencore, a well known mining company, for getting oil out of sanctioned Iraq, but needs cash up front to do the job."
                     },
                     {
                         "image": "finding-the-oil-to-get-started.png"
                     },
                     {
                         "heading": "The dilemma",
-                        "text": "You have found a potential source for this oil. A politically linked company has a deal via Glencore for getting oil out of sanctioned Iraq, but needs cash up front to do the job."
+                        "text": "You really want this cheap oil for the strategic reserve. Do you…"
+                    },
+                    {
+                        "heading": "The zone",
+                        "text": "You really want this cheap oil for the strategic reserve. Do you…"
                     },
                     {
                         "image": "start-strong-or-start-to-slip.png"

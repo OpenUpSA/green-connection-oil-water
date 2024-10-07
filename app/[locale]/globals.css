@@ -175,6 +175,61 @@ body {
   background-size: auto 100%;
 }
 
+.has-title-ring-wide {
+  background-image: url(/images/title-ring-wide.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.has-title-underline {
+  background-image: url(/images/title-underline.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.has-title-tail {
+  background-image: url(/images/title-tail.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.has-title-background-line {
+  background-image: url(/images/title-background-line.png);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.has-pin-background {
+  background-image: url(/images/pin-background-top.png),
+    url(/images/pin-background-bottom.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
+.has-option-background {
+  background-image: url(/images/option-background-top.png),
+    url(/images/option-background-bottom.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
+.has-option-circle-background {
+  background-image: url(/images/option.png);
+  background-position: 1.5rem center;
+  background-repeat: no-repeat;
+}
+
+.has-pin-torn-background {
+  background-image: url(/images/pin-torn-background-top.png),
+    url(/images/pin-background-bottom.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
 .outline {
   outline: solid 1px red;
 }
@@ -183,4 +238,27 @@ body {
   transform: scale(1.36);
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.animate-slide-up {
+  animation-fill-mode: forwards;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in;
+  animation-name: slideDown;
+
+  &:hover {
+    animation-name: slideUp;
+  }
+}
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideDown {
+  100% {
+    transform: translateY(0px);
+  }
 }
