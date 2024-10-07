@@ -13,7 +13,7 @@ export default function Page() {
 
   return (
     <>
-      <h1>{tP("title")}</h1>
+      <h1 className="text-dark-blueish">{tP("title")}</h1>
       <h2>{tP("sub-title")}</h2>
       {scenarios.map((scenario: any, index: number) => (
         <>

@@ -80,7 +80,7 @@ body {
     @apply text-blue-900;
     font-family: NewTitle-Regular;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0.32px;
     text-align: center;
   }
@@ -164,7 +164,7 @@ body {
   }
 
   .overlay-img-retract-up {
-    top: -75px;
+    top: -95px;
   }
 }
 

@@ -15,7 +15,7 @@ const config: Config = {
       fontSize: {
         "less-big": ["10rem", "8rem"],
         big: ["11rem", "9rem"],
-        bigger: ["13rem", "11rem"],
+        bigger: ["12rem", "10rem"],
       },
       colors: {
         "light-blueish": "#3866f5",

@@ -33,7 +33,7 @@ export default function Page({
         className="overlay-pin-answer-header"
       />
       <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
-      <h1 className="mt-[10rem]">{scenario.answers[answer].title}</h1>
+      <h1 className="text-dark-blueish mt-[10rem]">{scenario.answers[answer].title}</h1>
       <p>{scenario.answers[answer].description}</p>
       <p className="flex">
         <Link

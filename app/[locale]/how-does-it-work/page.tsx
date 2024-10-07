@@ -18,9 +18,9 @@ export default function Page({
     <>
       <img
         src="/images/pin-header.png"
-        className="overlay-pin-header overlay-img-top-left overlay-img-retract-up"
+        className="overlay-pin-header overlay-img-top-left overlay-img-retract-up sm:ml-[-13rem] md:ml-[-10rem]"
       />
-      <h1>{tP("title")}</h1>
+      <h1 className="text-dark-blueish">{tP("title")}</h1>
       <h2>{tP("sub-title")}</h2>
       {sections?.map(
         (
