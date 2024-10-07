@@ -21,6 +21,7 @@ const config: Config = {
         "light-blueish": "#3866f5",
         "dark-blueish": "#091c45",
         "darker-blueish": "#091D45",
+        "blueish-gray": "#0E275C",
       },
     },
   },

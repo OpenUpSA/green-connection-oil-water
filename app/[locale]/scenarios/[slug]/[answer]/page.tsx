@@ -10,9 +10,9 @@ import { Progress } from "@/components/progress";
 export default function Page({
   params,
 }: {
-  params: { slug: string; answer: string };
+  params: { locale: string; slug: string; answer: string };
 }) {
-  const { slug, answer } = params;
+  const { locale, slug, answer } = params;
   const t = useTranslations("global");
   const scenarios = t.raw("scenarios");
   const scenario = scenarios.find((scenario: any) => scenario.slug === slug);
@@ -33,9 +33,11 @@ export default function Page({
         className="overlay-pin-answer-header"
       />
       <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
-      <h1 className="text-dark-blueish mt-[10rem]">{scenario.answers[answer].title}</h1>
-      <p>{scenario.answers[answer].description}</p>
-      <p className="flex">
+      <h1 className="text-dark-blueish mt-[10rem] text-[3rem] leading-[3.25rem] mb-5">
+        {scenario.answers[answer].title}
+      </h1>
+      <p className="text-center">{scenario.answers[answer].description}</p>
+      <p className="flex my-5">
         <Link
           href={nextScenario ? `/scenarios/${nextScenario.slug}` : "/debrief"}
           className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button"
@@ -65,9 +67,24 @@ export default function Page({
           </svg>
         </Link>
       </p>
+      <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
+        <span className="text-dark-blueish has-title-underline bg-zinc-100 px-6 py-2 text-5xl">
+          {t("learn-more")}
+        </span>
+      </h2>
+      <p className="text-center">{scenario["learn-more"]}</p>
+      <img
+        src={`/images/${locale}/scenarios/${slug}/learn-more.png`}
+        alt={t("learn-more")}
+        className="display-block my-5"
+      />
       {scenario.references && (
         <>
-          <h3>{t("references")}</h3>
+          <h2 className="like-h3 has-title-background-line mt-10 mb-10 text-5xl">
+            <span className="text-dark-blueish has-title-underline bg-zinc-100 px-6 py-2 text-5xl">
+              {t("references")}
+            </span>
+          </h2>
           <ReferencesList references={scenario.references} />
         </>
       )}
