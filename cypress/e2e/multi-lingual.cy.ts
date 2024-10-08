@@ -26,11 +26,13 @@ describe("Test scenarios with available locales", () => {
     locales.map((locale) => {
       cy.readFile(`messages/${locale}.json`).then((messages) => {
         messages.global.scenarios.map(
-          (scenario: { slug: string; title: string }) => {
+          (scenario: { slug: string; title: string; format: string }) => {
             cy.visit(
               `http://localhost:3000/${locale}/scenarios/${scenario.slug}`
             );
-            cy.get("h2").should("contain", scenario.title);
+            if (scenario.format !== "bonus") {
+              cy.get("h2").should("contain", scenario.title);
+            }
           }
         );
       });

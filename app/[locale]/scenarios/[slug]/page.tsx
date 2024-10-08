@@ -44,7 +44,7 @@ export default function Page({
         </p>
       )}
       <h1 className="hidden">{t("title")}</h1>
-      {scenario.format != "bonus" && <h2 className="leading-[1em]">{scenario.title}</h2>}
+      {scenario.format !== "bonus" && <h2 className="leading-[1em]">{scenario.title}</h2>}
       {scenario["sub-title"] && (
         <h3 className="text-dark-blueish mb-5 leading-[4.5rem] has-title-ring-wide">
           {scenario["sub-title"]}
