@@ -16,7 +16,7 @@ export default function Page() {
       <h1 className="text-dark-blueish">{tP("title")}</h1>
       <h2>{tP("sub-title")}</h2>
       {scenarios.map((scenario: any, index: number) => (
-        <Fragment>
+        <Fragment key={index}>
           {scenario.references && (
             <Fragment>
               <h3 className="text-dark-blueish mb-5 leading-[4.5rem] has-title-ring-wide">
