@@ -152,38 +152,51 @@
                 ]
             },
             {
-                "format": "bonus",
-                "slug": "bonus-round",
-                "title": "Before you continue!",
+                "format": "normal",
+                "slug": "where-did-all-the-gas-go",
+                "title": "Where did all the gas go?",
+                "sub-title": "2006",
                 "sections": [
                     {
-                        "image": "title.png"
+                        "image": "a-gas-company-with-no-gas.png"
                     },
                     {
-                        "image": "what-are-stranded-assets.png"
+                        "heading": "Set-up",
+                        "text": "The heart of PetroSA’s operation is the gas-to-liquid (GTL) refinery in Mossel Bay, which converts gas mined off the coast to petroleum fuels. But with the gasfields expected to run dry by 2011, you’ve got some big decisions to make."
                     },
                     {
-                        "heading": "Quick summary",
-                        "text": "Countries which rely on fossil fuel exports to sustain their economies are vulnerable to several unique challenges which make their investments in the sector uneconomic in the long run. Governments may be willing to underwrite loans to gain foreign investment and secure jobs, but end up with useless infrastructure producing oil, gas and coal products based on outdated technology. Not only that, but they will have missed opportunities to invest in renewables."
-                    },
-                    {
-                        "image": "short-term-pain-long-term-gain.png"
-                    },
-                    {
-                        "heading": "The numbers",
-                        "text": "Global Energy Watch estimates that up to $245 billion of investments in gas alone could end up as “stranded assets”, and that “Emerging petrostates are setting up their industries at the worst possible time“. Even worse, the rush to secure natural gas following the invasion of Ukraine and introduction of sanctions against Russia has led to an oversupply in the market.  By effectively subsidising the production of fossil fuels, governments are increasing the chances that they will end up in a debt trap. The spot price of gas today is 80% less than it was two years ago."
-                    },
-                    {
-                        "image": "investing-at-the-wrong-time.png"
-                    },
-                    {
-                        "heading": "A new strategy",
-                        "text": "The International Renewable Energy Agency (IRENA) estimates that a strategy of investing in renewable energy, energy efficiency and related fields such as climate smart agriculture, rather than pursuing current energy goals, could result in significantly more jobs and GDP growth."
-                    },
-                    {
-                        "image": "climate-smart-is-economy-smart.png"
+                        "image": "gas-supply-running-dry-at-mosgas.png"
                     }
                 ],
+                "options": [
+                    {
+                        "text": "Wind down operations at Mossel Bay and invest in renewable energy",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Start planning to import liquid natural gas to keep the refinery going",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Begin prospecting for oil and gas outside South Africa",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Both 2 & 3",
+                        "goto": "correct"
+                    }
+                ],
+                "answers": {
+                    "correct": {
+                        "title": "Correct!",
+                        "description": "Keeping the plant open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day). In hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?"
+                    },
+                    "incorrect": {
+                        "title": "Incorrect!",
+                        "description": "It’s 2006 and despite the fact that renewable energy costs will drop so far in the next 15 years that some European firms are forced to give electricity away at peak times, South Africa’s energy procurement plan is still very fossil fuel focussed. Keeping Mossel Bay open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day). "
+                    }
+                },
+                "learn-more": "Fossil fuel firms have always received lots of hidden subsidies which make their products seem more cost effective than alternatives, although in the long term they are anything but. Taxpayers often swallow the losses, investment costs or interest on loans for unsuccessful or disappointing prospecting, while shareholders split the gains. Take Mozambique: loans were taken out to cover the vast cost of developing the Cabo Delgado gasfield on the prediction that GDP growth between 2014 and 2021 would be around 36%. The reality is that that growth was closer to 8%, and what’s more the project has sparked conflict, violence, environmental impact and increased corruption. Most of the wealth generated goes overseas to service debt..",
                 "references": [
                     {
                         "url": "https://www.iol.co.za/business-report/economy/petrosa-eyes-gtl-projects-in-egypt-colombia-and-qatar-734990"
@@ -200,226 +213,382 @@
                 ]
             },
             {
-                "format": "normal",
-                "slug": "lorem-ipsum-doler",
-                "title": "Lorem ipsum doler",
+                "format": "bonus",
+                "slug": "bonus-round",
+                "title": "Did you know?",
                 "sections": [
                     {
-                        "heading": "The set-up",
-                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "image": "what-are-stranded-assets.png"
                     },
                     {
-                        "heading": "The dilemma",
-                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "heading": "Set-up",
+                        "text": "Countries which rely on fossil fuel exports to sustain their economies are vulnerable to several unique challenges which make their investments in the sector uneconomic in the long run. Governments may be willing to underwrite loans to gain foreign investment and secure jobs, but end up with useless infrastructure producing oil, gas and coal products based on outdated technology.. Not only that, but they will have missed opportunities to invest in renewables. Global Energy Watch estimates that up to $245 billion of investments in gas alone could end up as “stranded assets”, and that “Emerging petrostates are setting up their industries at the worst possible time“. Even worse, the rush to secure natural gas following the invasion of Ukraine and introduction of sanctions against Russia has led to an oversupply in the market. By effectively subsidising the production of fossil fuels, governments are increasing the chances that they will end up in a debt trap. The spot price of gas today is 80% less than it was two years ago."
+                    },
+                    {
+                        "heading": "Charts",
+                        "text": "The International Renewable Energy Agency (IRENA) estimates that a strategy of investing in renewable energy, energy efficiency and related fields such as climate smart agriculture, rather than pursuing current energy goals, could result in significantly more jobs and GDP growth."
+                    },
+                    {
+                        "image": "climate-smart-is-economy-smart.png"
+                    }
+                ],
+                "references": [
+                    {
+                        "title": "The scramble for Africa’s gas",
+                        "url": "https://globalenergymonitor.org/report/scramble-for-africa-gas-poses-us245-billion-stranded-asset-risk/"
+                    },
+                    {
+                        "title": "The debt-fossil fuel trap",
+                        "url": "https://debtjustice.org.uk/wp-content/uploads/2023/08/Debt-fossil-fuel-trap-report-2023.pdf"
+                    },
+                    {
+                        "title": "The rights and wrongs of investing in natural gas",
+                        "url": "https://www.economist.com/finance-and-economics/2022/06/23/the-rights-and-wrongs-of-investing-in-natural-gas"
+                    },
+                    {
+                        "title": "Renewable energy market analysis (IRENA and African Development Bank)",
+                        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/Jan/IRENA_Market_Africa_2022.pdf"
+                    }
+                ]
+            },
+            {
+                "format": "normal",
+                "slug": "flying-high",
+                "title": "Flying high",
+                "sub-title": "2010",
+                "sections": [
+                    {
+                        "heading": "Set-up",
+                        "text": "The BEE company chosen by your Indian contractor to fly workers to your rigs is run by a powerful former prosecutor, and you have skeletons in the closet - including some dodgy dealings with underworld figures like Brett Kebble - which the prosecutor knows about!"
+                    },
+                    {
+                        "image": "trouble-getting-to-rigs.png"
+                    },
+                    {
+                        "text": "“Due diligence” is an uncomfortable prospect. Do you…"
                     }
                 ],
                 "options": [
                     {
-                        "text": "Lorem ipsum 1",
+                        "text": "Seize the opportunity to clean up the firm’s act and fess up to sins of the past?",
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Doler sit amet 2",
+                        "text": "Continue to deal with your new supplier, but keep them well at arms length?",
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Sit amet lorem 3",
+                        "text": "Ditch the worrisome partner and ask the airforce to start shuttling workers?",
                         "goto": "correct"
                     }
                 ],
                 "answers": {
                     "correct": {
-                        "title": "Lorem dipsum, well done!",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "title": "Correct!",
+                        "description": "That’s right, but it wasn’t the CEO that did it. Rather PetroSA’s chair (Popo Molefe) seems to have unilaterally binned a contract for transporting workers to rigs, and was sued by Indwe Aviation. Suspicions were raised as to the reasons, and that Indwe’s local partner was run by an ex-prosecutor. As an encore, the chair went on to try and sack the newly appointed CEO (chosen by the Minister for Energy), who was later reinstated by the board."
                     },
                     "incorrect": {
-                        "title": "Are you sure you are cut out for this business?",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Start as you mean to go on."
+                        "title": "Incorrect!",
+                        "description": "Who knows what really happened here? Certainly the public record is somewhat vague about the why, but what we do know is that PetroSA’s chair seems to have unilaterally binned a contract for transporting workers to rigs, and was sued by Indwe Aviation. As an encore, he went on to try and sack his own newly appointed CEO (chosen by the Minister for Energy), who was later reinstated by the board. Covering tracks?"
                     }
                 },
+                "learn-more": " ",
                 "references": [
                     {
-                        "url": "https://www.petroleumafrica.com/petrosa-faces-legal-action/"
+                        "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
                     },
                     {
-                        "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
+                        "url": "https://www.petroleumafrica.com/petrosa-faces-legal-action/"
                     }
                 ]
             },
             {
-                "format": "no-correct-incorrect",
-                "slug": "lorem-ipsum-doler-2",
-                "title": "Lorem ipsum doler 2",
+                "format": "normal",
+                "slug": "sell-sell-buy-bye",
+                "title": "Sell, sell! Buy, bye!",
+                "sub-title": "October 2015",
                 "sections": [
                     {
-                        "heading": "The set-up",
-                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "heading": "Set-up",
+                        "text": "You are the acting CEO of PetroSA’s sister company, the Strategic Fuel Fund (SFF). You have written to the Minister of Energy requesting permission to “rotate” some of its strategic oil reserves. The Minister agrees to the request, with certain provisions regarding regular reporting of progress, a transparent process for sale and purchase of stock, and that stock levels are maintained."
+                    },
+                    {
+                        "image": "whats-required-to-rotate-the-reserves.png"
                     },
                     {
                         "heading": "The dilemma",
-                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "text": "Do you..."
+                    },
+                    {
+                        "image": "to-comply-or-not-to-comply.png"
                     }
                 ],
                 "options": [
                     {
-                        "text": "Lorem ipsum 1",
-                        "goto": "answer"
+                        "text": "Adhere to the Minister’s requests, carefully rotating the strategic reserve and ensuring accountability by involving the board and ministry at every step.",
+                        "goto": "incorrect"
                     },
                     {
-                        "text": "Doler sit amet 2",
-                        "goto": "answer"
+                        "text": "Mostly comply with the request, but leave a bit of a gap between selling off some oil and replacing it. After all, who will notice a few barrels gone missing for a few days?",
+                        "goto": "incorrect"
                     },
                     {
-                        "text": "Sit amet lorem 3",
-                        "goto": "answer"
+                        "text": "Comply with the Minister’s requests and sell off and replace 10.5 million barrels of oil, but accidentally forget to inform the board that you are undertaking such a major endeavour.",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Sell off 10.3 million barrels of oil at around a third less than market value. Keep it quiet, though, and no-one will know.",
+                        "goto": "correct"
                     }
                 ],
                 "answers": {
-                    "answer": {
-                        "title": "Lorem dipsum!",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    "correct": {
+                        "title": "Correct!",
+                        "description": "You nearly got away with it! No-one noticed that you sold off the strategic reserve for a pittance in December. Some $28 per barrel when the market price was over $40! In fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
+                    },
+                    "incorrect": {
+                        "title": "Incorrect!",
+                        "description": "Well aren’t you just an angel? In real life, the acting CEO flogged off the strategic reserve and didn’t bother to refill the tanks - and to top it off only made $28 per barrel when the open market price was over $40. No-one seemed to notice for a while, as in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
+                    }
+                },
+                "learn-more": "The international norm is to hold 90 days’ worth of oil supply in reserve, to alleviate any disruptions to the global supply chain. In South Africa’s case, this would equate to around 25m barrels. As far as we know, however, the strategic reserve has never contained more than 12m barrels.",
+                "references": [
+                    {
+                        "url": "https://pmg.org.za/committee-meeting/32407/"
+                    },
+                    {
+                        "url": "https://www.gov.za/sites/default/files/gcis_document/201409/36220gen192.pdf"
+                    },
+                    {
+                        "url": "https://mg.co.za/article/2019-10-27-a-former-ceo-who-is-facing-criminal-charges-has-been-appointed-to-the-cef-board/"
+                    }
+                ]
+            },
+            {
+                "format": "normal",
+                "slug": "fair-days-pay-for-a-fair-days-work",
+                "title": "A fair day’s pay for a fair day’s work",
+                "sub-title": "2017",
+                "sections": [
+                    {
+                        "heading": "Set-up",
+                        "text": "It’s been a tough few years for you. Since those big write offs for your Egyptian and Ghanaian operations in 2012, the books haven’t been good. Try as you might, you can’t hide the fact you’ve lost R15 billion in the last two years, and will probably lose another billion the next."
+                    },
+                    {
+                        "image": "profits-what-profits.png"
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "Maybe it’s not all your fault the money isn’t coming in. The whole country has been struggling with overseas business since the Rand tanked at the appointment of David van Rooyen as Minister of Finance. Then the likes of Goldman Sachs keep telling the world how corrupt SA’s power sector is. Do you…"
+                    },
+                    {
+                        "image": "take-responsibility-or-take-a-bonus.png"
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Fire yourselves and demand to be replaced with a younger board composed of business greats with moral integrity?",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Plead for one more year to get the company back on the straight and narrow.",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Award yourselves R17.3 million in bonuses. It isn’t easy taking this much heat you know…",
+                        "goto": "correct"
+                    }
+                ],
+                "answers": {
+                    "correct": {
+                        "title": "Correct!",
+                        "description": "Well done, now you’re getting how the game is played. In 2017 Parliament suggested the entire board should be sacked for voting itself a whopping great set of bonuses despite awful financial performance. They were sacked, of course."
+                    },
+                    "incorrect": {
+                        "title": "Incorrect!",
+                        "description": "Oh please, these are the gravy train years and success isn’t measured by outcome but by loyalty. You deserve that bonus, you know you do, and so does your ultimate boss."
+                    }
+                },
+                "learn-more": "PetroSA was often late publishing annual reports and financial statements, and  after 2020 stopped sharing its accounts altogether. Now its performance is included in the CEF’s annual reports so profits and losses are not always clear.. Between 2013 and 2020, however, we know it lost more than R25bn.",
+                "references": [
+                    {
+                        "url": "https://www.moneyweb.co.za/news/economy/goldman-sachs-sees-eskom-as-biggest-risk-to-sa-economy/"
+                    },
+                    {
+                        "title": "PetroSA annual reports",
+                        "url": "https://www.iol.co.za/news/golden-handshakes-bonuses-despite-petrosas-losses-8190663"
+                    }
+                ]
+            },
+            {
+                "format": "normal",
+                "slug": "someone-has-to-pay",
+                "title": "Someone has to pay",
+                "sections": [
+                    {
+                        "heading": "Description",
+                        "text": "PetroSA was established to manage the production and refinement of petroleum products, largely via its MosselBay facility. With the closure of that facility, it now mostly acts as a middle person for supplying diesel to Eskom. Eskom has applied for (and been turned down) a licence to run its own import facilities and reduce costs."
+                    },
+                    {
+                        "heading": "Set-up",
+                        "text": "Loadshedding is sending demand for diesel sky high, and by a quirk of legislative fate, Eskom is not able to go to the markets directly to procure this fuel for its open combined gas turbine (OCGT) generators."
+                    },
+                    {
+                        "image": "sa-in-the-dark-eskom-left-powerless.png"
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "You have the licences needed to procure and import diesel. Do you…"
+                    },
+                    {
+                        "image": "good-faith-middlemen-or-pirate.png"
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Use your experience to find the very best prices on the open market and pass this saving on to Eskom in a spirit of national unity?",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Recommend Eskom be given permission to procure its own fuel, cutting out the middle people?",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Enter into a whole bunch of opaque procurement contracts, probably with sanctioned sources, and then charge Eskom higher than market rate for the fuel when it is landed?",
+                        "goto": "correct"
+                    }
+                ],
+                "answers": {
+                    "correct": {
+                        "title": "Correct!",
+                        "description": "Of course that’s the way forward. Eskom’s fleet of power stations is collapsing due to years of disrepair, corruption and poor decision making. It has its own issues with state capture and organised crime, and no-one is going to notice if you take this opportunity to fill your own coffers at their expense."
+                    },
+                    "incorrect": {
+                        "title": "Incorrect!",
+                        "description": "How can you overlook this opportunity? Your finances are in shambles and Eskom is desperate. You have what they need and only losers look out for the national interest these days. Go back and take what you can. Everyone else is!"
+                    }
+                },
+                "learn-more": "In the financial year ending March 2023, it was estimated that PetroSA had charged Eskom up to R26 per litre for diesel, way over the pump price. Actual numbers are, of course, rarely shared, but EE Intelligence reported the 2022-23 contract values as below."
+            },
+            {
+                "format": "normal",
+                "slug": "double-booked",
+                "title": "Double booked",
+                "sub-title": "October 2023",
+                "sections": [
+                    {
+                        "heading": "Description",
+                        "text": "PetroSA had issued two tenders relating to funding of gas well expansion, for an estimated R21.6bn. Equator was selected to fund the project under one tender, while Theza was selected to execute the project and provide funding under another. A new joint venture was formed between the two companies and a final contract was awarded. Concerns were raised that the final contract was even broader than the original RFPs."
+                    },
+                    {
+                        "heading": "Set-up",
+                        "text": "You are the CEO of PetroSA and your goal is to restart your long mothballed gas-to-liquid refinery by drilling for gas off the coast of South Africa. You’ve issued three tenders, one to finance the restarting of the refinery, one to drill new wells and one to fund the drilling. It’s an expensive project, the drilling is going to cost R21.6 billion."
+                    },
+                    {
+                        "image": "you-double-dipped-now-what.png"
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "Somehow you’ve managed to mess up the tender process and contract two separate firms to provide the funding. Oops! Do you…"
+                    },
+                    {
+                        "image": "tenders-to-get-mosgas-online.png"
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Tear up the tender documents and restart the process, firing the awards team along the way.",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Involve the Chief Procurement Officer to discover how such an egregious mistake was made and avoid it happening again.",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Tell one of the companies that they will not be involved in financing the deal, as per the original RFP.",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Encourage the two companies to form an opaque joint venture and carry on regardless. After all, they are old friends of yours!",
+                        "goto": "correct"
+                    }
+                ],
+                "answers": {
+                    "correct": {
+                        "title": "Correct!",
+                        "description": "That’s right! You’re going to gloss over the irregularities even though one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well! Don’t get too excited though. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because it failed to pay the R35K a month salaries at a local football club it owned. Thus the whole multi billion rand deal is now in crisis. You couldn’t make it up…"
+                    },
+                    "incorrect": {
+                        "title": "Incorrect!",
+                        "description": "There are processes in place to ensure the procurement process is fair and somewhat transparent, but following them is not for fools like yourself. In this case, a key irregularity is one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well! Still - maybe you did the right thing. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because for several years it failed to pay the R35K a month salaries at a local football club it owned. Thus the whole multi billion rand deal is now in crisis. You couldn’t make it up…"
+                    }
+                },
+                "learn-more": "Did we mention one of the key players in this deal is Rosgeo, the Russian oil and gas company? So there’s also the issue of potential sanctions busting activities given that the invasion of Ukraine has made that country a pariah. Still - those geopolitics have increased fuel prices to ridiculous levels, so we’ll get a good price from any new gas mined!"
+            },
+            {
+                "format": "normal",
+                "slug": "kicking-it-into-touch",
+                "title": "Kicking it into touch",
+                "sub-title": "February 2024",
+                "sections": [
+                    {
+                        "heading": "Description",
+                        "text": "PetroSA has a huge shortfall in its budget for rehabilitation and decommissioning of facilities, which must be addressed by February 2024. It was reported in 2020 that this cost was R12.43bn, of which PSA has R2.78bn set aside. There is a loophole that says it can buy itself 5 more years of time by entering into a payment agreement with the minister."
+                    },
+                    {
+                        "heading": "Set-up",
+                        "text": "You are the CEO of PetroSA and you’re looking at a financial black hole. At the end of 2020, you knew you were R9.4 billion short of the R12.4bn you needed to set aside under the terms of the National Environmental Management Act 1998 (NEMA). This money is for cleaning up toxic waste left behind after a facility is closed, and it has to be handed over to the government this month. But times have been hard, and even though directors are still getting bonuses and wasteful expenditure is up in the billions, you’ve not put a single penny aside for the last four years. This is serious, if you don’t sort it out, you could face 10 years in prison!"
+                    },
+                    {
+                        "image": "neglect-and-excess-leads-to-tough-decisions.png"
+                    },
+                    {
+                        "heading": "The dilemma",
+                        "text": "That’s a lot of cash to find at short notice. Do you…"
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Liquidate the company and put all the cash into the cleanup fund?",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Put out a press release highlighting the issue and asking the public to donate?",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Explain to local fishers that they probably should move coast?",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Turn yourself in and accept your fate",
+                        "goto": "incorrect"
+                    },
+                    {
+                        "text": "Beg the Minister to let you enter into a five year payment plan, kicking the issue into touch for now.",
+                        "goto": "correct"
+                    }
+                ],
+                "answers": {
+                    "correct": {
+                        "title": "Correct!",
+                        "description": "[Waiting on content]"
+                    },
+                    "incorrect": {
+                        "title": "Incorrect!",
+                        "description": "[Waiting on content]"
                     }
                 }
             },
             {
-                "format": "no-correct-incorrect",
-                "slug": "lorem-ipsum-doler-3",
-                "title": "Lorem ipsum doler 3",
+                "format": "bonus",
+                "slug": "final-scenario",
+                "title": "Final scenario",
                 "sections": [
                     {
-                        "heading": "The set-up",
-                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    },
-                    {
-                        "heading": "The dilemma",
-                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        "text": "What is the correct answer? We don’t know - and neither do you. But what is clear is that PetroSA cannot continue to gaslight the nation and hide incompetence, corruption and waste behind a veil of obfuscation and poor transparency. Join us to campaign for a cleaner, better future."
                     }
-                ],
-                "options": [
-                    {
-                        "text": "Lorem ipsum 1",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Doler sit amet 2",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Sit amet lorem 3",
-                        "goto": "answer"
-                    }
-                ],
-                "answers": {
-                    "answer": {
-                        "title": "Lorem dipsum!",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                }
-            },
-            {
-                "format": "no-correct-incorrect",
-                "slug": "lorem-ipsum-doler-4",
-                "title": "Lorem ipsum doler 4",
-                "sections": [
-                    {
-                        "heading": "The set-up",
-                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    },
-                    {
-                        "heading": "The dilemma",
-                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                ],
-                "options": [
-                    {
-                        "text": "Lorem ipsum 1",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Doler sit amet 2",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Sit amet lorem 3",
-                        "goto": "answer"
-                    }
-                ],
-                "answers": {
-                    "answer": {
-                        "title": "Lorem dipsum!",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                }
-            },
-            {
-                "format": "no-correct-incorrect",
-                "slug": "lorem-ipsum-doler-5",
-                "title": "Lorem ipsum doler 5",
-                "sections": [
-                    {
-                        "heading": "The set-up",
-                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    },
-                    {
-                        "heading": "The dilemma",
-                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                ],
-                "options": [
-                    {
-                        "text": "Lorem ipsum 1",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Doler sit amet 2",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Sit amet lorem 3",
-                        "goto": "answer"
-                    }
-                ],
-                "answers": {
-                    "answer": {
-                        "title": "Lorem dipsum!",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                }
-            },
-            {
-                "format": "no-correct-incorrect",
-                "slug": "lorem-ipsum-doler-6",
-                "title": "Lorem ipsum doler 6",
-                "sections": [
-                    {
-                        "heading": "The set-up",
-                        "text": "Lorem ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    },
-                    {
-                        "heading": "The dilemma",
-                        "text": "Ipsum doler sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                ],
-                "options": [
-                    {
-                        "text": "Lorem ipsum 1",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Doler sit amet 2",
-                        "goto": "answer"
-                    },
-                    {
-                        "text": "Sit amet lorem 3",
-                        "goto": "answer"
-                    }
-                ],
-                "answers": {
-                    "answer": {
-                        "title": "Lorem dipsum!",
-                        "description": "Ipsum doler sit amet adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    }
-                }
+                ]
             }
         ]
     }

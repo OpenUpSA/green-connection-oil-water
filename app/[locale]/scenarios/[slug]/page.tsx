@@ -116,7 +116,7 @@ export default function Page({
         </Fragment>
       ) : (
         <Link
-          href={`/scenarios/${nextScenario.slug}`}
+          href={nextScenario ? `/scenarios/${nextScenario.slug}` : '/debrief'}
           className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button my-5"
         >
           {t(nextScenario ? "next-scenario" : "finish")}
