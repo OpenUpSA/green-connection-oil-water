@@ -65,9 +65,11 @@ body {
     font-family: Newtitle-Regular;
     background-color: var(--redish);
     color: var(--button-text);
-    font-size: 3rem;
+    font-size: 1.75rem;
     border-radius: var(--border-radius);
     padding: 0.75rem 3rem;
+
+    box-shadow: 0px 3px 0px 0px #0000001a;
 
     svg {
       width: 60px;
@@ -78,7 +80,7 @@ body {
     @apply text-blue-900;
     font-family: NewTitle-Regular;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0.32px;
     text-align: center;
   }
@@ -96,12 +98,17 @@ body {
     line-height: 6rem;
   }
 
-  h3 {
+  h3,
+  h2.like-h3 {
     @apply text-blue-900 font-medium;
     font-size: 2.25rem;
     font-family: Caveat, sans-serif;
     letter-spacing: -0.72px;
     text-align: center;
+  }
+
+  h2.like-h3 {
+    font-size: unset;
   }
 
   h4 {
@@ -135,5 +142,158 @@ body {
 
   .inset-b-50 {
     bottom: 50%;
+  }
+
+  .overlay-pin-header {
+    pointer-events: none;
+    position: absolute;
+    top: -14px;
+  }
+
+  .overlay-pin-answer-header {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .overlay-pin-bonus {
+    pointer-events: none;
+    position: absolute;
+    top: 1.7rem;
+    left: 50%;
+    margin-left: -5.7rem;
+  }
+
+  .overlay-img-retract-up {
+    top: -95px;
+  }
+}
+
+.has-title-ring {
+  background-image: url(/images/title-ring.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.has-title-ring-wide {
+  background-image: url(/images/title-ring-wide.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.has-title-underline {
+  background-image: url(/images/title-underline.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.has-title-tail {
+  background-image: url(/images/title-tail.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.has-title-background-line {
+  background-image: url(/images/title-background-line.png);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.has-pin-background {
+  background-image: url(/images/pin-background-top.png),
+    url(/images/pin-background-bottom.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
+.has-option-background {
+  background-image: url(/images/option-background-top.png),
+    url(/images/option-background-bottom.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
+.has-option-circle-background {
+  background-image: url(/images/option.png);
+  background-position: 1.5rem center;
+  background-repeat: no-repeat;
+}
+
+.has-pin-torn-background {
+  background-image: url(/images/pin-torn-background-top.png),
+    url(/images/pin-background-bottom.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain;
+}
+
+.outline {
+  outline: solid 1px red;
+}
+
+.transform-scale-130 {
+  transform: scale(1.36);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.animate-slide-up {
+  animation-fill-mode: forwards;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in;
+  animation-name: slideDown;
+
+  &:hover {
+    animation-name: slideUp;
+  }
+}
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideDown {
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+ol.reference-list {
+  list-style: none;
+  counter-reset: item;
+
+  li {
+    counter-increment: item;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: visible;
+    padding-left: 2.5rem;
+  }
+
+  li:before {
+    content: counter(item);
+    text-indent: 0;
+    font-family: Caveat;
+    margin-right: 10px;
+    background: #ed1547;
+    border-radius: 100%;
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0 0.5rem 1rem 0.5rem;
+    box-sizing: content-box;
+    line-height: 2rem;
+    position: absolute;
+    left: 0;
+    color: #fff;
   }
 }

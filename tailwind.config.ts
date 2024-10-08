@@ -15,12 +15,13 @@ const config: Config = {
       fontSize: {
         "less-big": ["10rem", "8rem"],
         big: ["11rem", "9rem"],
-        bigger: ["13rem", "11rem"],
+        bigger: ["12rem", "10rem"],
       },
       colors: {
         "light-blueish": "#3866f5",
         "dark-blueish": "#091c45",
         "darker-blueish": "#091D45",
+        "blueish-gray": "#0E275C",
       },
     },
   },
