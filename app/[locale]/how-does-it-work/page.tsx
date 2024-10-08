@@ -18,7 +18,7 @@ export default function Page({
     <>
       <img
         src="/images/pin-header.png"
-        className="overlay-pin-header overlay-img-top-left overlay-img-retract-up sm:ml-[-13rem] md:ml-[-10rem]"
+        className="overlay-pin-header overlay-img-top-left overlay-img-retract-up ml-[-12rem]"
       />
       <h1 className="text-dark-blueish">{tP("title")}</h1>
       <h2>{tP("sub-title")}</h2>

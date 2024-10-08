@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "app/[locale]/navigation";
-import Image from "next/image";
 
 export default function Page({
   params: { locale },
@@ -16,7 +15,7 @@ export default function Page({
     <>
       <img
         src="/images/pin-header.png"
-        className="overlay-pin-header overlay-img-retract-up ml-[4rem] md:ml-[8rem]"
+        className="overlay-pin-header overlay-img-retract-up ml-[4rem]"
         width="273"
         height="173"
       />
