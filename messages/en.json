@@ -88,7 +88,7 @@
         "title-name": "Gaslit!",
         "sub-title": "The game of greed and gas at PetroSA",
         "your-options": "Your options",
-        "scenario-count": "Scenario ",
+        "scenario-count": "Scenario",
         "next-scenario": "Next scenario",
         "finish": "Finish!",
         "references": "References",
@@ -102,7 +102,7 @@
                 "sections": [
                     {
                         "heading": "Set-up",
-                        "text": "Congratulations on your appointment to the newly formed SOE, PetroSA. A politically linked company has a deal via Glencore, a well known mining company, for getting oil out of sanctioned Iraq, but needs cash up front to do the job."
+                        "text": "Congratulations on your appointment to the newly formed SOE, PetroSA. A politically linked company called Imvume Management has a deal via Glencore, a well known mining company, for buying Iraqi oil. Just two issues: Iraqi fuel can only be purchased through the UN’s  Oil for Food programme, and Imvume needs cash up front to do the job. "
                     },
                     {
                         "image": "finding-the-oil-to-get-started.png"
@@ -117,11 +117,11 @@
                 ],
                 "options": [
                     {
-                        "text": "Refuse the deal and insist on a transparent tender process in line with procurement regulations",
+                        "text": "Refuse the deal and insist on a transparent tender process in line with procurement regulations\n",
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Refuse the deal and report the issue to parliamentary oversight committees",
+                        "text": "Refuse to do the deal and report the issue to parliamentary oversight committees",
                         "goto": "correct"
                     },
                     {
@@ -132,22 +132,22 @@
                 "answers": {
                     "correct": {
                         "title": "You handed over the cash, well done!",
-                        "description": "PetroSA handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq. It did so with the government of the time’s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here’s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on…"
+                        "description": "PetroSA handed over several payments to Imvume Management, which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq. It did so with the government of the time’s blessing[1]. \n\nMedia reports also alleged that at least R11m of the money paid from PetroSA was alleged to have been given to the ANC as kickbacks to fund its 2004 election campaign[2]. \n\nHere’s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on…\n"
                     },
                     "incorrect": {
                         "title": "Are you sure you are cut out for this business?",
-                        "description": "What happened was that PetroSA seemingly handed over several early payments to Imvume Management, a company which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq - and it did so, apparently, with the government’s blessing. At least R11m of the money paid from PetroSA was alleged to have ended up going back to the ANC to fund its 2004 election campaign. Here’s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on…"
+                        "description": "What happened was that PetroSA handed over several payments to Imvume Management, which was later accused by an independent inquiry of illicit dealing under the oil-for-food programme in Iraq. It did so with the government of the time’s blessing[1]. \n\nMedia reports also alleged that at least R11m of the money paid from PetroSA was alleged to have been given to the ANC as kickbacks to fund its 2004 election campaign[2].\n\nHere’s the real kicker - most of the Iraqi oil never actually came to SA, and you ended up buying from Russia instead! Start as you mean to go on…\n"
                     }
                 },
                 "learn-more": "“Oilgate”, as it was dubbed, was just a small part of the fossil fuel industry’s dodgy dealings in Iraq before the US invasion of 2003. Unsurprisingly, there were no prosecutions in SA, though, and dirty fuel producers laughed all the way to the bank!",
                 "references": [
                     {
-                        "title": "Mail & Guardian",
-                        "url": "https://mg.co.za/article/2005-07-15-oilgate-company-was-anc-front/"
-                    },
-                    {
                         "title": "Volker Report (UN)",
                         "url": "https://web.archive.org/web/20130823070841/http://www.iic-offp.org/documents/IIC%20Final%20Report%2027Oct2005.pdf"
+                    },
+                    {
+                        "title": "Mail & Guardian",
+                        "url": "https://mg.co.za/article/2005-07-15-oilgate-company-was-anc-front/\n"
                     }
                 ]
             },
@@ -189,14 +189,14 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "Keeping the plant open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day). In hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?"
+                        "description": "Keeping the plant open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day)[3]. \n\nIn hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?\n"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "It’s 2006 and despite the fact that renewable energy costs will drop so far in the next 15 years that some European firms are forced to give electricity away at peak times, South Africa’s energy procurement plan is still very fossil fuel focussed. Keeping Mossel Bay open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day). "
+                        "description": "It’s 2006 and despite the fact that renewable energy costs will drop so far in the next 15 years that some European firms are forced to give electricity away at peak times, South Africa’s energy procurement plan is still very fossil fuel focussed.   \n\nKeeping Mossel Bay open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day)[3]. \n\nIn hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?\n"
                     }
                 },
-                "learn-more": "Fossil fuel firms have always received lots of hidden subsidies which make their products seem more cost effective than alternatives, although in the long term they are anything but. Taxpayers often swallow the losses, investment costs or interest on loans for unsuccessful or disappointing prospecting, while shareholders split the gains. Take Mozambique: loans were taken out to cover the vast cost of developing the Cabo Delgado gasfield on the prediction that GDP growth between 2014 and 2021 would be around 36%. The reality is that that growth was closer to 8%, and what’s more the project has sparked conflict, violence, environmental impact and increased corruption. Most of the wealth generated goes overseas to service debt..",
+                "learn-more": "Who could predict it? Well, the issue of hidden costs and overspends in fossil fuel extraction - and who pays for it - is well understood globally. \n\nFossil fuel firms have always received lots of hidden subsidies which make their products seem more cost effective than alternatives, although in the long term they are anything but. On paper, the return on investment always looks good, but fails to deliver.\n\nTaxpayers often swallow the losses, investment costs or interest on loans for unsuccessful or disappointing prospecting, while shareholders split the gains.\n\nTake our neighbour, Mozambique.\n\nLoans were taken out to cover the vast cost of developing the Cabo Delgado gasfield on the prediction that GDP growth between 2014 and 2021 would be around 36%. The reality is that that growth was closer to 8%[4].\n\nWhat’s more the project has sparked conflict, violence, environmental impact and increased corruption. All hidden costs which are left to residents of Mozambique and its neighbours to sort out[4].",
                 "references": [
                     {
                         "url": "https://www.iol.co.za/business-report/economy/petrosa-eyes-gtl-projects-in-egypt-colombia-and-qatar-734990"
@@ -206,6 +206,9 @@
                     },
                     {
                         "url": "https://egyptoil-gas.com/news/petrosa-withdraws-from-the-egyptian-sector/"
+                    },
+                    {
+                        "url": "https://debtjustice.org.uk/wp-content/uploads/2023/08/Debt-fossil-fuel-trap-report-2023.pdf"
                     },
                     {
                         "url": "https://www.imf.org/en/Countries/MOZ"
@@ -222,11 +225,11 @@
                     },
                     {
                         "heading": "Set-up",
-                        "text": "Countries which rely on fossil fuel exports to sustain their economies are vulnerable to several unique challenges which make their investments in the sector uneconomic in the long run. Governments may be willing to underwrite loans to gain foreign investment and secure jobs, but end up with useless infrastructure producing oil, gas and coal products based on outdated technology.. Not only that, but they will have missed opportunities to invest in renewables. Global Energy Watch estimates that up to $245 billion of investments in gas alone could end up as “stranded assets”, and that “Emerging petrostates are setting up their industries at the worst possible time“. Even worse, the rush to secure natural gas following the invasion of Ukraine and introduction of sanctions against Russia has led to an oversupply in the market. By effectively subsidising the production of fossil fuels, governments are increasing the chances that they will end up in a debt trap. The spot price of gas today is 80% less than it was two years ago."
+                        "text": "Countries which rely on fossil fuel exports to sustain their economies are vulnerable to several unique challenges which make their investments in the sector uneconomic in the long run. Governments may be willing to underwrite loans to gain foreign investment and secure jobs, but end up with infrastructure producing oil, gas and coal products based on outdated technology.\n\nNot only that, but they will have missed opportunities to invest in renewables.\n\nGlobal Energy Watch estimates that up to $245 billion of investments in gas alone could end up as “stranded assets”6, and that “Emerging petrostates are setting up their industries at the worst possible time“. Even worse, the rush to secure natural gas following the invasion of Ukraine and introduction of sanctions against Russia has led to an oversupply in the global market and a drop in market prices. \n\nBy effectively subsidising the production of fossil fuels, governments are increasing the chances that they will end up in a debt trap. The spot price of gas today is 80% less than it was two years ago[7]."
                     },
                     {
                         "heading": "Charts",
-                        "text": "The International Renewable Energy Agency (IRENA) estimates that a strategy of investing in renewable energy, energy efficiency and related fields such as climate smart agriculture, rather than pursuing current energy goals, could result in significantly more jobs and GDP growth."
+                        "text": "The International Renewable Energy Agency (IRENA) estimates that a strategy of investing in renewable energy, energy efficiency and related fields such as climate smart agriculture, rather than pursuing current energy goals, could result in significantly more jobs and GDP growth[8]."
                     },
                     {
                         "image": "climate-smart-is-economy-smart.png"
@@ -246,6 +249,10 @@
                         "url": "https://www.economist.com/finance-and-economics/2022/06/23/the-rights-and-wrongs-of-investing-in-natural-gas"
                     },
                     {
+                        "title": "Macrotrends",
+                        "url": "https://www.macrotrends.net/2478/natural-gas-prices-historical-chart\n"
+                    },
+                    {
                         "title": "Renewable energy market analysis (IRENA and African Development Bank)",
                         "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/Jan/IRENA_Market_Africa_2022.pdf"
                     }
@@ -259,7 +266,7 @@
                 "sections": [
                     {
                         "heading": "Set-up",
-                        "text": "The BEE company chosen by your Indian contractor to fly workers to your rigs is run by a powerful former prosecutor, and you have skeletons in the closet - including some dodgy dealings with underworld figures like Brett Kebble - which the prosecutor knows about!"
+                        "text": "The BEE company chosen by your Indian contractor to fly workers to your rigs is run by a powerful former prosecutor, and you have skeletons in the closet - including allegations of some dodgy dealings with underworld figures like Brett Kebble - which the prosecutor knows about!"
                     },
                     {
                         "image": "trouble-getting-to-rigs.png"
@@ -285,20 +292,23 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "That’s right, but it wasn’t the CEO that did it. Rather PetroSA’s chair (Popo Molefe) seems to have unilaterally binned a contract for transporting workers to rigs, and was sued by Indwe Aviation. Suspicions were raised as to the reasons, and that Indwe’s local partner was run by an ex-prosecutor. As an encore, the chair went on to try and sack the newly appointed CEO (chosen by the Minister for Energy), who was later reinstated by the board."
+                        "description": "That’s right, PetroSA’s chair (Popo Molefe) seems to have unilaterally binned a contract for transporting workers to rigs, and was sued by Indwe Aviation. Suspicions were raised as to the reasons, and that Indwe’s local partner was run by an ex-prosecutor. As an encore, the chair went on to try and sack the newly appointed CEO (chosen by the Minister for Energy), who was later reinstated by the board[10]."
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "Who knows what really happened here? Certainly the public record is somewhat vague about the why, but what we do know is that PetroSA’s chair seems to have unilaterally binned a contract for transporting workers to rigs, and was sued by Indwe Aviation. As an encore, he went on to try and sack his own newly appointed CEO (chosen by the Minister for Energy), who was later reinstated by the board. Covering tracks?"
+                        "description": "Who knows what really happened here? Certainly the public record is somewhat vague about the why, but what we do know is that PetroSA’s chair seems to have unilaterally binned a contract for transporting workers to rigs, and was sued by Indwe Aviation. As an encore, he went on to try and sack his own newly appointed CEO (chosen by the Minister for Energy), who was later reinstated by the board[10]."
                     }
                 },
-                "learn-more": " ",
+                "learn-more": "",
                 "references": [
                     {
                         "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
                     },
                     {
                         "url": "https://www.petroleumafrica.com/petrosa-faces-legal-action/"
+                    },
+                    {
+                        "url": "https://www.saflii.org/za/cases/ZAWCHC/2011/249.html\n"
                     }
                 ]
             },
@@ -310,7 +320,7 @@
                 "sections": [
                     {
                         "heading": "Set-up",
-                        "text": "You are the acting CEO of PetroSA’s sister company, the Strategic Fuel Fund (SFF). You have written to the Minister of Energy requesting permission to “rotate” some of its strategic oil reserves. The Minister agrees to the request, with certain provisions regarding regular reporting of progress, a transparent process for sale and purchase of stock, and that stock levels are maintained."
+                        "text": "You are the acting CEO of PetroSA’s sister company, the Strategic Fuel Fund (SFF). You have written to the Minister of Energy requesting permission to “rotate” some of its strategic oil reserves11. That means selling off some of the oil reserves and then replenishing them. \n\nThe Minister agrees to the request, with certain provisions regarding regular reporting of progress, a transparent process for sale and purchase of stock, and that stock levels are maintained.\n\nDo you…"
                     },
                     {
                         "image": "whats-required-to-rotate-the-reserves.png"
@@ -325,7 +335,7 @@
                 ],
                 "options": [
                     {
-                        "text": "Adhere to the Minister’s requests, carefully rotating the strategic reserve and ensuring accountability by involving the board and ministry at every step.",
+                        "text": "Adhere to the Minister’s requests, carefully rotating the strategic reserve and ensuring accountability by involving the board and ministry at every step. ",
                         "goto": "incorrect"
                     },
                     {
@@ -344,23 +354,20 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "You nearly got away with it! No-one noticed that you sold off the strategic reserve for a pittance in December. Some $28 per barrel when the market price was over $40! In fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
+                        "description": "You nearly got away with it! No-one noticed that you sold off the strategic reserve for a pittance in December. You only got $28 per barrel when the market price was over $40! In fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
                         "description": "Well aren’t you just an angel? In real life, the acting CEO flogged off the strategic reserve and didn’t bother to refill the tanks - and to top it off only made $28 per barrel when the open market price was over $40. No-one seemed to notice for a while, as in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
                     }
                 },
-                "learn-more": "The international norm is to hold 90 days’ worth of oil supply in reserve, to alleviate any disruptions to the global supply chain. In South Africa’s case, this would equate to around 25m barrels. As far as we know, however, the strategic reserve has never contained more than 12m barrels.",
+                "learn-more": "The international norm is to hold 90 days’ worth of oil supply in reserve, to alleviate any disruptions to the global supply chain. In South Africa’s case, this would equate to around 25m barrels, although local laws only mandate that the reserve holds 21 days’ worth (around 10m barrels)[12]. ",
                 "references": [
                     {
                         "url": "https://pmg.org.za/committee-meeting/32407/"
                     },
                     {
-                        "url": "https://www.gov.za/sites/default/files/gcis_document/201409/36220gen192.pdf"
-                    },
-                    {
-                        "url": "https://mg.co.za/article/2019-10-27-a-former-ceo-who-is-facing-criminal-charges-has-been-appointed-to-the-cef-board/"
+                        "url": "https://www.outa.co.za/blog/newsroom-1/post/reclaim-sas-strategic-oil-reserves-946 \n"
                     }
                 ]
             },
@@ -379,7 +386,7 @@
                     },
                     {
                         "heading": "The dilemma",
-                        "text": "Maybe it’s not all your fault the money isn’t coming in. The whole country has been struggling with overseas business since the Rand tanked at the appointment of David van Rooyen as Minister of Finance. Then the likes of Goldman Sachs keep telling the world how corrupt SA’s power sector is. Do you…"
+                        "text": "Maybe it’s not all your fault the money isn’t coming in. The whole country has been struggling with overseas business since the Rand tanked at the appointment of David van Rooyen as Minister of Finance. Then the likes of Goldman Sachs keep telling the world how corrupt SA’s power sector is[13]. Do you…\n"
                     },
                     {
                         "image": "take-responsibility-or-take-a-bonus.png"
@@ -402,14 +409,14 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "Well done, now you’re getting how the game is played. In 2017 Parliament suggested the entire board should be sacked for voting itself a whopping great set of bonuses despite awful financial performance. They were sacked, of course."
+                        "description": "Well done, now you’re getting how the game is played. In 2017, a parliamentary committee delivered a damning overview of Petro SA’s lack of accountability, with one ANC MP suggesting the entire board should be sacked for voting itself a whopping great set of bonuses despite awful financial performance[14]. They were not sacked, of course."
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "Oh please, these are the gravy train years and success isn’t measured by outcome but by loyalty. You deserve that bonus, you know you do, and so does your ultimate boss."
+                        "description": "Oh please, these are the gravy train years and success isn’t measured by outcome but by loyalty. You deserve that bonus, you know you do, and so does your ultimate boss.\n\nIncidentally, in 2017, a parliamentary committee delivered a damning overview of Petro SA’s lack of accountability, with one ANC MP suggesting the entire board should be sacked for voting itself a whopping great set of bonuses despite awful financial performance[14]. They were not sacked, of course."
                     }
                 },
-                "learn-more": "PetroSA was often late publishing annual reports and financial statements, and  after 2020 stopped sharing its accounts altogether. Now its performance is included in the CEF’s annual reports so profits and losses are not always clear.. Between 2013 and 2020, however, we know it lost more than R25bn.",
+                "learn-more": "PetroSA was often late publishing annual reports and financial statements, and  after 2020 stopped sharing its accounts altogether. Now its performance is included in the CEF’s annual reports so profits and losses are not always clear. Between 2013 and 2020, however, we know it lost more than R25bn[15].",
                 "references": [
                     {
                         "url": "https://www.moneyweb.co.za/news/economy/goldman-sachs-sees-eskom-as-biggest-risk-to-sa-economy/"
@@ -417,6 +424,12 @@
                     {
                         "title": "PetroSA annual reports",
                         "url": "https://www.iol.co.za/news/golden-handshakes-bonuses-despite-petrosas-losses-8190663"
+                    },
+                    {
+                        "url": "https://pmg.org.za/committee-meeting/24147/"
+                    },
+                    {
+                        "url": "https://www.petrosa.co.za/investors.html"
                     }
                 ]
             },
@@ -427,11 +440,11 @@
                 "sections": [
                     {
                         "heading": "Description",
-                        "text": "PetroSA was established to manage the production and refinement of petroleum products, largely via its MosselBay facility. With the closure of that facility, it now mostly acts as a middle person for supplying diesel to Eskom. Eskom has applied for (and been turned down) a licence to run its own import facilities and reduce costs."
+                        "text": "PetroSA was established to (among other things) manage the production and refinement of petroleum products, largely via its MosselBay facility. With the closure of that facility, it now mostly acts as a middle person for supplying diesel to Eskom. Eskom has applied for (and been turned down) a licence to run its own import facilities and reduce costs."
                     },
                     {
                         "heading": "Set-up",
-                        "text": "Loadshedding is sending demand for diesel sky high, and by a quirk of legislative fate, Eskom is not able to go to the markets directly to procure this fuel for its open combined gas turbine (OCGT) generators."
+                        "text": "Loadshedding is sending demand for diesel sky high, and by a quirk of legislative fate, Eskom is not able to go to the markets directly to procure and import this fuel for its open combined gas turbine (OCGT) generators[16]."
                     },
                     {
                         "image": "sa-in-the-dark-eskom-left-powerless.png"
@@ -454,21 +467,36 @@
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Enter into a whole bunch of opaque procurement contracts, probably with sanctioned sources, and then charge Eskom higher than market rate for the fuel when it is landed?",
+                        "text": "Enter into a whole bunch of secret procurement contracts, and then charge Eskom higher than market rate for the fuel when it is landed?",
                         "goto": "correct"
                     }
                 ],
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "Of course that’s the way forward. Eskom’s fleet of power stations is collapsing due to years of disrepair, corruption and poor decision making. It has its own issues with state capture and organised crime, and no-one is going to notice if you take this opportunity to fill your own coffers at their expense."
+                        "description": "Of course that’s the way forward. Eskom’s fleet of power stations is collapsing due to years of disrepair, corruption and poor decision making. It has its own issues with state capture and organised crime, and no-one is going to notice if you take this opportunity to fill your own coffers at their expense[17]."
                     },
                     "incorrect": {
                         "title": "Incorrect!",
                         "description": "How can you overlook this opportunity? Your finances are in shambles and Eskom is desperate. You have what they need and only losers look out for the national interest these days. Go back and take what you can. Everyone else is!"
                     }
                 },
-                "learn-more": "In the financial year ending March 2023, it was estimated that PetroSA had charged Eskom up to R26 per litre for diesel, way over the pump price. Actual numbers are, of course, rarely shared, but EE Intelligence reported the 2022-23 contract values as below."
+                "learn-more": "In the financial year ending March 2023, it was alleged that PetroSA had charged Eskom up to R26 per litre for diesel, way over the pump price[17]. Actual numbers are, of course, rarely shared, but EE Intelligence reported the 2022-23 contract values as below. Who knows though? As reported by Carte Blanche[18], in 2023 Minister for Minerals and Energy, Gwede Mantashe, repeatedly justified secrecy around PetroSA’s contracting. In many cases, we just don’t know where it is buying from and how much it is selling for!",
+                "references": [
+                    {
+                        "url": "https://www.news24.com/fin24/economy/dmre-rejects-eskoms-bid-for-diesel-licence-20221230"
+                    },
+                    {
+                        "url": "https://www.dailymaverick.co.za/article/2023-02-02-diesel-or-darkness-petrosa-charges-eskom-unfair-prices-extracts-upfront-payments/"
+                    },
+                    {
+                        "url": "https://fuelsindustry.org.za/old-fuel-prices/"
+                    },
+                    {
+                        "title": "PetroSA’s dirty business",
+                        "url": "https://www.youtube.com/watch?v=hNHNimb-YLI"
+                    }
+                ]
             },
             {
                 "format": "normal",
@@ -482,7 +510,7 @@
                     },
                     {
                         "heading": "Set-up",
-                        "text": "You are the CEO of PetroSA and your goal is to restart your long mothballed gas-to-liquid refinery by drilling for gas off the coast of South Africa. You’ve issued three tenders, one to finance the restarting of the refinery, one to drill new wells and one to fund the drilling. It’s an expensive project, the drilling is going to cost R21.6 billion."
+                        "text": "Your goal is to restart your long mothballed gas-to-liquid (GTL) refinery by drilling for gas off the coast of South Africa. You’ve issued three tenders, one to finance the restarting of the refinery, one to drill new wells and one to fund the drilling. It’s an expensive project, the drilling is going to cost R21.6 billion[19]."
                     },
                     {
                         "image": "you-double-dipped-now-what.png"
@@ -516,14 +544,24 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "That’s right! You’re going to gloss over the irregularities even though one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well! Don’t get too excited though. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because it failed to pay the R35K a month salaries at a local football club it owned. Thus the whole multi billion rand deal is now in crisis. You couldn’t make it up…"
+                        "description": "That’s right! You’re going to gloss over the irregularities even though one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well![19] \n\nDon’t get too excited though. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because it failed to pay the R35K a month salaries at a local football club it owned[20]. Thus the whole multi billion rand deal is now in crisis. You couldn’t make it up…"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "There are processes in place to ensure the procurement process is fair and somewhat transparent, but following them is not for fools like yourself. In this case, a key irregularity is one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well! Still - maybe you did the right thing. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because for several years it failed to pay the R35K a month salaries at a local football club it owned. Thus the whole multi billion rand deal is now in crisis. You couldn’t make it up…"
+                        "description": "There are processes in place to ensure the procurement process is fair and somewhat transparent, but following them is not for fools like yourself. In this case, a key irregularity is one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well![19]  \n\nStill - maybe you did the right thing. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because for several years it failed to pay the R35K a month salaries at a local football club it owned[20]. Thus the whole multi billion rand deal is now in jeopardy. You couldn’t make it up…\n"
                     }
                 },
-                "learn-more": "Did we mention one of the key players in this deal is Rosgeo, the Russian oil and gas company? So there’s also the issue of potential sanctions busting activities given that the invasion of Ukraine has made that country a pariah. Still - those geopolitics have increased fuel prices to ridiculous levels, so we’ll get a good price from any new gas mined!"
+                "learn-more": "Did we mention one of the key players in this deal is Gasprombank, the Russian bank associated with oil and gas investments? So there’s also the issue of potential sanctions busting activities given that the invasion of Ukraine has made that country a pariah. Still - those geopolitics have increased fuel prices to ridiculous levels at the pumps, even as wholesale costs have dropped, so we’ll get a good price from any new gas mined!",
+                "references": [
+                    {
+                        "title": "Media reports on the founding of EquaTheza",
+                        "url": "https://www.dailymaverick.co.za/article/2024-01-23-petrosa-taps-notorious-political-operator-for-massive-offshore-gas-deal/"
+                    },
+                    {
+                        "title": "Own goal! PetroSA’s multi-billion rand offshore gas deal thwarted by unpaid soccer player",
+                        "url": "https://amabhungane.org/own-goal-petrosas-multi-billion-rand-offshore-gas-deal-thwarted-by-unpaid-soccer-player/"
+                    }
+                ]
             },
             {
                 "format": "normal",
@@ -533,11 +571,11 @@
                 "sections": [
                     {
                         "heading": "Description",
-                        "text": "PetroSA has a huge shortfall in its budget for rehabilitation and decommissioning of facilities, which must be addressed by February 2024. It was reported in 2020 that this cost was R12.43bn, of which PSA has R2.78bn set aside. There is a loophole that says it can buy itself 5 more years of time by entering into a payment agreement with the minister."
+                        "text": "PetroSA has a huge shortfall in its budget for rehabilitation and decommissioning of facilities, which must be addressed by February 2024. It was reported in 2020 that this cost was R12.43bn, of which PSA has R2.78bn set aside. \n\nThere is a loophole that says it can buy itself 5 more years of time by entering into a payment agreement with the minister\n"
                     },
                     {
                         "heading": "Set-up",
-                        "text": "You are the CEO of PetroSA and you’re looking at a financial black hole. At the end of 2020, you knew you were R9.4 billion short of the R12.4bn you needed to set aside under the terms of the National Environmental Management Act 1998 (NEMA). This money is for cleaning up toxic waste left behind after a facility is closed, and it has to be handed over to the government this month. But times have been hard, and even though directors are still getting bonuses and wasteful expenditure is up in the billions, you’ve not put a single penny aside for the last four years. This is serious, if you don’t sort it out, you could face 10 years in prison!"
+                        "text": "You are the CEO of PetroSA and you’re looking at a financial black hole. At the end of 2020, you knew you were R9.4 billion short of the R12.4bn you needed to set aside under the terms of the National Environmental Management Act 1998 (NEMA), which governs issues such as rehabilitation and decommissioning of facilities.. \n\nSome of this money is for cleaning up toxic waste left behind after a facility is closed, and it has to be handed over to the government this month. But times have been hard, and even though directors are still getting bonuses and wasteful expenditure is up in the billions, you’ve not put a single penny aside for the last four years.\n\nThis is serious, if you don’t sort it out, you could face 10 years in prison!\n"
                     },
                     {
                         "image": "neglect-and-excess-leads-to-tough-decisions.png"
@@ -572,11 +610,11 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "[Waiting on content]"
+                        "description": "You’ve got away with it for now. At the time of writing, the NEMA Financial Provision Regulations have been amended to big somewhat ambiguous: the period of payback is not “until a new date is published in the gazette”. \n\nConfusing, inexplicable, unaccountable? Just another day in the office for you!"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "[Waiting on content]"
+                        "description": "You’ve not got the hang of this yet, have you? At the time of writing, the NEMA Financial Provision Regulations have been amended to big somewhat ambiguous: the period of payback is not “until a new date is published in the gazette”. \n\nConfusing, inexplicable, unaccountable? Just another day in the office for you!"
                     }
                 }
             },
