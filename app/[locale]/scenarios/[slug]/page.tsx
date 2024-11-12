@@ -39,8 +39,7 @@ export default function Page({
       <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
       {scenario.format != "bonus" && (
         <p className="text-center ff-new-title-regular text-4xl">
-          {t("scenario-count")}
-          {scenarioIndex + 1}
+          {t("scenario-count")} {scenarioIndex + 1}
         </p>
       )}
       <h1 className="hidden">{t("title")}</h1>
@@ -73,9 +72,8 @@ export default function Page({
             )}
             {section.text && (
               <p
-                className={`text-center has-pin-${
-                  index > 0 ? "torn-" : ""
-                }background pt-[6rem] pb-5`}
+                className={`text-center has-pin-${index > 0 ? "torn-" : ""
+                  }background pt-[6rem] pb-5`}
               >
                 <span className="block bg-white px-5 pb-5">{section.text}</span>
               </p>
