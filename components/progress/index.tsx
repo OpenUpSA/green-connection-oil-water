@@ -13,9 +13,7 @@ export function Progress({
         {scenarios.map((s: any, i: number) => (
           <li
             key={i}
-            className={`rounded-full h-5 w-5 ${
-              scenarioIndex >= i ? "bg-blue-500" : "bg-gray-300"
-            }`}
+            className={`rounded-full h-5 w-5 ${s.format == 'bonus' ? 'hidden' : ''} ${scenarioIndex >= i ? "bg-blue-500" : "bg-gray-300"}`}
           >
             &nbsp;
           </li>

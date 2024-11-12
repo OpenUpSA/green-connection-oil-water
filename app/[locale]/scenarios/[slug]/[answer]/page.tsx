@@ -26,6 +26,7 @@ export default function Page({
   const nextScenarioIndex =
     scenarios.findIndex((s: any) => s.slug === slug) + 1;
   const nextScenario = scenarios[nextScenarioIndex];
+  const nextScenarioText = nextScenario ? nextScenario.format == 'bonus' ? 'more-info' : "next-scenario" : "finish"
 
   return (
     <Fragment>
@@ -43,7 +44,7 @@ export default function Page({
           href={nextScenario ? `/scenarios/${nextScenario.slug}` : "/debrief"}
           className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button"
         >
-          {t(nextScenario ? "next-scenario" : "finish")}
+          {t(nextScenarioText)}
           <svg
             viewBox="0 0 43 25"
             fill="none"
