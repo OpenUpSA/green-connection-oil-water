@@ -12,8 +12,8 @@ export function ReferencesList({ references }: { references: any }) {
             className="text-blueish-gray text-xs flex items-center"
           >
             <span className="counter">{(reference.number ? reference.number : index + 1)}</span>
-            <div>
-              {reference.title && <>{reference.title}, </>}
+            <div className="truncate">
+              {reference.title && <>{reference.title}, <br /></>}
               <a
                 href={reference.url}
                 target="_blank"
