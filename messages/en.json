@@ -19,7 +19,7 @@
                     "filename": "your-role.png",
                     "alt": "Image of silhouetted portraits"
                 },
-                "text": "You are the head of PetroSA. This is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), and it reports to the Department of Energy. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing gas to liquid (GTL) refineries."
+                "text": "You are the head of PetroSA. This is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), and it currently reports to the newsly-formed Department of Minerals and Petroleum. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing gas to liquid (GTL) refineries."
             },
             {
                 "label": "Step 2",
@@ -91,7 +91,6 @@
         "scenario-count": "Scenario",
         "next-scenario": "Next scenario",
         "finish": "Finish!",
-        "more-info": "More info",
         "references": "References",
         "learn-more": "Learn more",
         "scenarios": [
@@ -143,13 +142,13 @@
                 "learn-more": "“Oilgate”, as it was dubbed, was just a small part of the fossil fuel industry’s dodgy dealings in Iraq before the US invasion of 2003. Unsurprisingly, there were no prosecutions in SA, though, and dirty fuel producers laughed all the way to the bank!",
                 "references": [
                     {
-                        "number": 1,
                         "title": "Volker Report (UN)",
+                        "number": "1",
                         "url": "https://web.archive.org/web/20130823070841/http://www.iic-offp.org/documents/IIC%20Final%20Report%2027Oct2005.pdf"
                     },
                     {
-                        "number": 2,
                         "title": "Mail & Guardian",
+                        "number": "2",
                         "url": "https://mg.co.za/article/2005-07-15-oilgate-company-was-anc-front/\n"
                     }
                 ]
@@ -192,33 +191,37 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "Keeping the plant open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day)[3]. \n\nIn hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?\n"
+                        "description": "Keeping the plant open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day)[3]. \n\nIn hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "It’s 2006 and despite the fact that renewable energy costs will drop so far in the next 15 years that some European firms are forced to give electricity away at peak times, South Africa’s energy procurement plan is still very fossil fuel focussed.   \n\nKeeping Mossel Bay open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) somewhere in the region of $100 million in unsuccessful ventures drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. Despite this, you’ll all make plans to spend $650 million on prospecting South African waters (with no results to this day)[3]. \n\nIn hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more - but who could have predicted that?\n"
+                        "description": "It’s 2006 and despite the fact that renewable energy costs will drop so far in the next 15 years that some European firms are forced to give electricity away at peak times, South Africa’s energy procurement plan is still very fossil fuel focussed.   \n\nKeeping Mossel Bay open makes a certain kind of business logic, but over the next five years you’ll go on to spend (and lose) a staggering amount in unsuccessful ventures looking for new sources of gas feedstock. This included somewhere in the region of $100 million spent on drilling in Egypt, half that again in Equatorial Guinea and $30 million in Gabon. You’ll also make plans to spend $650 million on prospecting South African waters (with no results to this day)[3]. \n\nIn hindsight, perhaps sticking to fossil fuels wasn’t the best bet. Over the next 18 years the cost of renewable energy and battery storage will drop by 90% or more[4]."
                     }
                 },
-                "learn-more": "Who could predict it? Well, the issue of hidden costs and overspends in fossil fuel extraction - and who pays for it - is well understood globally. \n\nFossil fuel firms have always received lots of hidden subsidies which make their products seem more cost effective than alternatives, although in the long term they are anything but. On paper, the return on investment always looks good, but fails to deliver.\n\nTaxpayers often swallow the losses, investment costs or interest on loans for unsuccessful or disappointing prospecting, while shareholders split the gains.\n\nTake our neighbour, Mozambique.\n\nLoans were taken out to cover the vast cost of developing the Cabo Delgado gasfield on the prediction that GDP growth between 2014 and 2021 would be around 36%. The reality is that that growth was closer to 8%[4].\n\nWhat’s more the project has sparked conflict, violence, environmental impact and increased corruption. All hidden costs which are left to residents of Mozambique and its neighbours to sort out[4].",
+                "learn-more": "Who could predict it? Well, the issue of hidden costs and overspends in fossil fuel extraction - and who pays for it - is well understood globally. \n\nFossil fuel firms have always received lots of hidden subsidies which make their products seem more cost effective than alternatives, although in the long term they are anything but. On paper, the return on investment always looks good, but fails to deliver.\n\nTaxpayers often swallow the losses, investment costs or interest on loans for unsuccessful or disappointing prospecting, while shareholders split the gains.\n\nTake our neighbour, Mozambique.\n\nLoans were taken out to cover the vast cost of developing the Cabo Delgado gasfield on the prediction that GDP growth between 2014 and 2021 would be around 36%. The reality is that that growth was closer to 8%[5].\n\nWhat’s more the project has sparked conflict, violence, environmental impact and increased corruption. All hidden costs which are left to residents of Mozambique and its neighbours to sort out[5].",
                 "references": [
                     {
-                        "number": 3,
+                        "number": "3",
                         "url": "https://www.iol.co.za/business-report/economy/petrosa-eyes-gtl-projects-in-egypt-colombia-and-qatar-734990"
                     },
                     {
-                        "number": 4,
+                        "number": "4",
+                        "url": "https://www.iea.org/news/rapid-expansion-of-batteries-will-be-crucial-to-meet-climate-and-energy-security-goals-set-at-cop28"
+                    },
+                    {
+                        "number": "5",
                         "url": "https://www.iol.co.za/business-report/companies/petrosa-lands-exploration-rights-in-egypts-gulf-of-suez-732286"
                     },
                     {
-                        "number": 5,
+                        "number": "6",
                         "url": "https://egyptoil-gas.com/news/petrosa-withdraws-from-the-egyptian-sector/"
                     },
                     {
-                        "number": 6,
+                        "number": "7",
                         "url": "https://debtjustice.org.uk/wp-content/uploads/2023/08/Debt-fossil-fuel-trap-report-2023.pdf"
                     },
                     {
-                        "number": 7,
+                        "number": "8",
                         "url": "https://www.imf.org/en/Countries/MOZ"
                     }
                 ]
@@ -232,8 +235,8 @@
                         "image": "what-are-stranded-assets.png"
                     },
                     {
-                        "heading": "Set-up",
-                        "text": "Countries which rely on fossil fuel exports to sustain their economies are vulnerable to several unique challenges which make their investments in the sector uneconomic in the long run. Governments may be willing to underwrite loans to gain foreign investment and secure jobs, but end up with infrastructure producing oil, gas and coal products based on outdated technology.\n\nNot only that, but they will have missed opportunities to invest in renewables.\n\nGlobal Energy Watch estimates that up to $245 billion of investments in gas alone could end up as “stranded assets”6, and that “Emerging petrostates are setting up their industries at the worst possible time“. Even worse, the rush to secure natural gas following the invasion of Ukraine and introduction of sanctions against Russia has led to an oversupply in the global market and a drop in market prices. \n\nBy effectively subsidising the production of fossil fuels, governments are increasing the chances that they will end up in a debt trap. The spot price of gas today is 80% less than it was two years ago[7]."
+                        "heading": "Did you know?",
+                        "text": "Countries which rely on fossil fuel exports to sustain their economies are vulnerable to unique challenges which are often beyond their control. These often make their investments in the sector uneconomic in the long run. \n\nFor example, governments may be willing to underwrite loans to gain foreign investment and secure jobs today, but end up with infrastructure producing oil, gas and coal products based on outdated technology.\n\nNot only that, but they will have missed opportunities to invest in renewables.\n\nGlobal Energy Watch estimates that up to $245 billion of investments in gas alone could end up as “stranded assets”6, and that “Emerging petrostates are setting up their industries at the worst possible time“. Even worse, the rush to secure natural gas following the invasion of Ukraine and introduction of sanctions against Russia has led to an oversupply in the global market and a drop in market prices. \n\nBy effectively subsidising the production of fossil fuels, governments are increasing the chances that they will end up in a debt trap. The spot price of gas in mid-2024 was 80% less than it was two years before[7]."
                     },
                     {
                         "heading": "Charts",
@@ -245,28 +248,28 @@
                 ],
                 "references": [
                     {
-                        "number": 8,
                         "title": "The scramble for Africa’s gas",
+                        "number": "9",
                         "url": "https://globalenergymonitor.org/report/scramble-for-africa-gas-poses-us245-billion-stranded-asset-risk/"
                     },
                     {
-                        "number": 9,
                         "title": "The debt-fossil fuel trap",
+                        "number": "10",
                         "url": "https://debtjustice.org.uk/wp-content/uploads/2023/08/Debt-fossil-fuel-trap-report-2023.pdf"
                     },
                     {
-                        "number": 10,
                         "title": "The rights and wrongs of investing in natural gas",
+                        "number": "11",
                         "url": "https://www.economist.com/finance-and-economics/2022/06/23/the-rights-and-wrongs-of-investing-in-natural-gas"
                     },
                     {
-                        "number": 11,
                         "title": "Macrotrends",
+                        "number": "12",
                         "url": "https://www.macrotrends.net/2478/natural-gas-prices-historical-chart\n"
                     },
                     {
-                        "number": 12,
                         "title": "Renewable energy market analysis (IRENA and African Development Bank)",
+                        "number": "13",
                         "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/Jan/IRENA_Market_Africa_2022.pdf"
                     }
                 ]
@@ -315,15 +318,15 @@
                 "learn-more": "",
                 "references": [
                     {
-                        "number": 13,
+                        "number": "14",
                         "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
                     },
                     {
-                        "number": 14,
+                        "number": "15",
                         "url": "https://www.petroleumafrica.com/petrosa-faces-legal-action/"
                     },
                     {
-                        "number": 15,
+                        "number": "16",
                         "url": "https://www.saflii.org/za/cases/ZAWCHC/2011/249.html\n"
                     }
                 ]
@@ -370,22 +373,38 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "You nearly got away with it! No-one noticed that you sold off the strategic reserve for a pittance in December. You only got $28 per barrel when the market price was over $40! In fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
+                        "description": "You nearly got away with it! No-one noticed that you sold off the strategic reserve for a pittance in December. You only got $28 per barrel when the market price was over $40! In fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re not just walking free. In 2024 you were appointed head of the South African National Petroleum Company (SANPC). Congratulations!"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "Well aren’t you just an angel? In real life, the acting CEO flogged off the strategic reserve and didn’t bother to refill the tanks - and to top it off only made $28 per barrel when the open market price was over $40. No-one seemed to notice for a while, as in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re still walking free. Congratulations!"
+                        "description": "Well aren’t you just an angel? In real life, the acting CEO of SFF flogged off the strategic reserve and didn’t bother to refill the tanks - and to top it off only made $28 per barrel when the open market price was over $40. No-one seemed to notice for a while, as in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re not just walking free. In 2024 you were appointed head of the South African National Petroleum Company (SANPC). Congratulations!"
                     }
                 },
                 "learn-more": "The international norm is to hold 90 days’ worth of oil supply in reserve, to alleviate any disruptions to the global supply chain. In South Africa’s case, this would equate to around 25m barrels, although local laws only mandate that the reserve holds 21 days’ worth (around 10m barrels)[12]. ",
                 "references": [
                     {
-                        "number": 16,
+                        "number": "17",
+                        "url": " https://pmg.org.za/committee-meeting/24494/"
+                    },
+                    {
+                        "number": "18",
                         "url": "https://pmg.org.za/committee-meeting/32407/"
                     },
                     {
-                        "number": 17,
+                        "number": "19",
                         "url": "https://www.outa.co.za/blog/newsroom-1/post/reclaim-sas-strategic-oil-reserves-946 \n"
+                    },
+                    {
+                        "number": "20",
+                        "url": "https://www.engineeringnews.co.za/article/new-state-owned-petroleum-company-granted-permission-to-begin-operating-2024-09-18"
+                    },
+                    {
+                        "number": "21",
+                        "url": "https://www.news24.com/citypress/news/probe-clears-allegations-of-irregular-appointment-of-state-entitys-senior-managers-20220127\n"
+                    },
+                    {
+                        "number": "22",
+                        "url": "https://www.businesslive.co.za/bd/national/2020-05-11-central-energy-fund-fills-all-vacant-ceo-positions/"
                     }
                 ]
             },
@@ -437,20 +456,20 @@
                 "learn-more": "PetroSA was often late publishing annual reports and financial statements, and  after 2020 stopped sharing its accounts altogether. Now its performance is included in the CEF’s annual reports so profits and losses are not always clear. Between 2013 and 2020, however, we know it lost more than R25bn[15].",
                 "references": [
                     {
-                        "number": 18,
+                        "number": "23",
                         "url": "https://www.moneyweb.co.za/news/economy/goldman-sachs-sees-eskom-as-biggest-risk-to-sa-economy/"
                     },
                     {
-                        "number": 19,
                         "title": "PetroSA annual reports",
+                        "number": "24",
                         "url": "https://www.iol.co.za/news/golden-handshakes-bonuses-despite-petrosas-losses-8190663"
                     },
                     {
-                        "number": 20,
+                        "number": "25",
                         "url": "https://pmg.org.za/committee-meeting/24147/"
                     },
                     {
-                        "number": 21,
+                        "number": "26",
                         "url": "https://www.petrosa.co.za/investors.html"
                     }
                 ]
@@ -506,20 +525,20 @@
                 "learn-more": "In the financial year ending March 2023, it was alleged that PetroSA had charged Eskom up to R26 per litre for diesel, way over the pump price[17]. Actual numbers are, of course, rarely shared, but EE Intelligence reported the 2022-23 contract values as below. Who knows though? As reported by Carte Blanche[18], in 2023 Minister for Minerals and Energy, Gwede Mantashe, repeatedly justified secrecy around PetroSA’s contracting. In many cases, we just don’t know where it is buying from and how much it is selling for!",
                 "references": [
                     {
-                        "number": 22,
+                        "number": "27",
                         "url": "https://www.news24.com/fin24/economy/dmre-rejects-eskoms-bid-for-diesel-licence-20221230"
                     },
                     {
-                        "number": 23,
+                        "number": "28",
                         "url": "https://www.dailymaverick.co.za/article/2023-02-02-diesel-or-darkness-petrosa-charges-eskom-unfair-prices-extracts-upfront-payments/"
                     },
                     {
-                        "number": 24,
+                        "number": "29",
                         "url": "https://fuelsindustry.org.za/old-fuel-prices/"
                     },
                     {
-                        "number": 25,
                         "title": "PetroSA’s dirty business",
+                        "number": "30",
                         "url": "https://www.youtube.com/watch?v=hNHNimb-YLI"
                     }
                 ]
@@ -574,19 +593,19 @@
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "There are processes in place to ensure the procurement process is fair and somewhat transparent, but following them is not for fools like yourself. In this case, a key irregularity is one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well![19]  \n\nStill - maybe you did the right thing. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because for several years it failed to pay the R35K a month salaries at a local football club it owned[20]. Thus the whole multi billion rand deal is now in jeopardy. You couldn’t make it up…\n"
+                        "description": "There are processes in place to ensure the procurement process is fair and somewhat transparent, but following them is not for a high-flying executive like yourself. In this case, a key irregularity is one of the organisations has no track record in financing deals of this size or immediate access to such a large amount of funding. It’s run by a well connected “political operator” though. So you’re going to encourage the two winning bidders to create a joint venture, but inexplicably give the new company part of the third contract to restart the refinery as well![19]  \n\nStill - maybe you did the right thing. In July 2024 it was discovered that Equator Holdings, the organisation run by that political operator, had been liquidated because for several years it failed to pay the R35K a month salaries at a local football club it owned[20]. Thus the whole multi billion rand deal is now in jeopardy. You couldn’t make it up…\n"
                     }
                 },
-                "learn-more": "Did we mention one of the key players in this deal is Gasprombank, the Russian bank associated with oil and gas investments? So there’s also the issue of potential sanctions busting activities given that the invasion of Ukraine has made that country a pariah. Still - those geopolitics have increased fuel prices to ridiculous levels at the pumps, even as wholesale costs have dropped, so we’ll get a good price from any new gas mined!",
+                "learn-more": "Did we mention one of the key players in this deal is Gazprombank, the Russian bank associated with oil and gas investments? So there’s also the issue of potential sanctions busting activities given that the invasion of Ukraine has made that country a pariah. Still - those geopolitics have increased fuel prices to ridiculous levels at the pumps, even as wholesale costs have dropped, so we’ll get a good price from any new gas mined!",
                 "references": [
                     {
-                        "number": 26,
                         "title": "Media reports on the founding of EquaTheza",
+                        "number": "31",
                         "url": "https://www.dailymaverick.co.za/article/2024-01-23-petrosa-taps-notorious-political-operator-for-massive-offshore-gas-deal/"
                     },
                     {
-                        "number": 27,
                         "title": "Own goal! PetroSA’s multi-billion rand offshore gas deal thwarted by unpaid soccer player",
+                        "number": "32",
                         "url": "https://amabhungane.org/own-goal-petrosas-multi-billion-rand-offshore-gas-deal-thwarted-by-unpaid-soccer-player/"
                     }
                 ]
