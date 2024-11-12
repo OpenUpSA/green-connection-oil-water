@@ -20,8 +20,7 @@ export default function Page() {
           {scenario.references && (
             <Fragment>
               <h3 className="text-dark-blueish mb-5 leading-[4.5rem] has-title-ring-wide">
-                {t("scenario-count")}
-                {index + 1}
+                {t("scenario-count")} {index + 1}
               </h3>
               <ReferencesList references={scenario.references} />
             </Fragment>
