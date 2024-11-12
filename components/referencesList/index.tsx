@@ -6,11 +6,12 @@ export function ReferencesList({ references }: { references: any }) {
   return (
     <ol className="reference-list">
       {references.map(
-        (reference: { title: string; url: string }, index: Key) => (
+        (reference: { number: number, title: string; url: string }, index: number) => (
           <li
             key={index}
             className="text-blueish-gray text-xs flex items-center"
           >
+            <span className="counter">{(reference.number ? reference.number : index + 1)}</span>
             <div>
               {reference.title && <>{reference.title}, </>}
               <a

@@ -274,26 +274,24 @@ ol.reference-list {
     position: relative;
     overflow: visible;
     padding-left: 2.5rem;
-  }
 
-  li:before {
-    content: counter(item);
-    text-indent: 0;
-    font-family: Caveat;
-    margin-right: 10px;
-    background: #ed1547;
-    border-radius: 100%;
-    color: white;
-    width: 1rem;
-    height: 1rem;
-    text-align: center;
-    display: inline-block;
-    font-size: 1.25rem;
-    padding: 0 0.5rem 1rem 0.5rem;
-    box-sizing: content-box;
-    line-height: 2rem;
-    position: absolute;
-    left: 0;
-    color: #fff;
+    .counter {
+      font-family: Caveat;
+      margin-right: 10px;
+      background: #ed1547;
+      border-radius: 100%;
+      color: white;
+      width: 1rem;
+      height: 1rem;
+      text-align: center;
+      display: inline-block;
+      font-size: 1.25rem;
+      padding: 0 0.5rem 1rem 0.5rem;
+      box-sizing: content-box;
+      line-height: 2rem;
+      position: absolute;
+      left: 0;
+      color: #fff;
+    }
   }
 }

@@ -142,10 +142,12 @@
                 "learn-more": "“Oilgate”, as it was dubbed, was just a small part of the fossil fuel industry’s dodgy dealings in Iraq before the US invasion of 2003. Unsurprisingly, there were no prosecutions in SA, though, and dirty fuel producers laughed all the way to the bank!",
                 "references": [
                     {
+                        "number": 1,
                         "title": "Volker Report (UN)",
                         "url": "https://web.archive.org/web/20130823070841/http://www.iic-offp.org/documents/IIC%20Final%20Report%2027Oct2005.pdf"
                     },
                     {
+                        "number": 2,
                         "title": "Mail & Guardian",
                         "url": "https://mg.co.za/article/2005-07-15-oilgate-company-was-anc-front/\n"
                     }
@@ -199,18 +201,23 @@
                 "learn-more": "Who could predict it? Well, the issue of hidden costs and overspends in fossil fuel extraction - and who pays for it - is well understood globally. \n\nFossil fuel firms have always received lots of hidden subsidies which make their products seem more cost effective than alternatives, although in the long term they are anything but. On paper, the return on investment always looks good, but fails to deliver.\n\nTaxpayers often swallow the losses, investment costs or interest on loans for unsuccessful or disappointing prospecting, while shareholders split the gains.\n\nTake our neighbour, Mozambique.\n\nLoans were taken out to cover the vast cost of developing the Cabo Delgado gasfield on the prediction that GDP growth between 2014 and 2021 would be around 36%. The reality is that that growth was closer to 8%[4].\n\nWhat’s more the project has sparked conflict, violence, environmental impact and increased corruption. All hidden costs which are left to residents of Mozambique and its neighbours to sort out[4].",
                 "references": [
                     {
+                        "number": 3,
                         "url": "https://www.iol.co.za/business-report/economy/petrosa-eyes-gtl-projects-in-egypt-colombia-and-qatar-734990"
                     },
                     {
+                        "number": 4,
                         "url": "https://www.iol.co.za/business-report/companies/petrosa-lands-exploration-rights-in-egypts-gulf-of-suez-732286"
                     },
                     {
+                        "number": 5,
                         "url": "https://egyptoil-gas.com/news/petrosa-withdraws-from-the-egyptian-sector/"
                     },
                     {
+                        "number": 6,
                         "url": "https://debtjustice.org.uk/wp-content/uploads/2023/08/Debt-fossil-fuel-trap-report-2023.pdf"
                     },
                     {
+                        "number": 7,
                         "url": "https://www.imf.org/en/Countries/MOZ"
                     }
                 ]
@@ -237,22 +244,27 @@
                 ],
                 "references": [
                     {
+                        "number": 8,
                         "title": "The scramble for Africa’s gas",
                         "url": "https://globalenergymonitor.org/report/scramble-for-africa-gas-poses-us245-billion-stranded-asset-risk/"
                     },
                     {
+                        "number": 9,
                         "title": "The debt-fossil fuel trap",
                         "url": "https://debtjustice.org.uk/wp-content/uploads/2023/08/Debt-fossil-fuel-trap-report-2023.pdf"
                     },
                     {
+                        "number": 10,
                         "title": "The rights and wrongs of investing in natural gas",
                         "url": "https://www.economist.com/finance-and-economics/2022/06/23/the-rights-and-wrongs-of-investing-in-natural-gas"
                     },
                     {
+                        "number": 11,
                         "title": "Macrotrends",
                         "url": "https://www.macrotrends.net/2478/natural-gas-prices-historical-chart\n"
                     },
                     {
+                        "number": 12,
                         "title": "Renewable energy market analysis (IRENA and African Development Bank)",
                         "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/Jan/IRENA_Market_Africa_2022.pdf"
                     }
@@ -302,12 +314,15 @@
                 "learn-more": "",
                 "references": [
                     {
+                        "number": 13,
                         "url": "https://www.iol.co.za/news/south-africa/petrosa-taken-to-court-over-r40m-deal-489309"
                     },
                     {
+                        "number": 14,
                         "url": "https://www.petroleumafrica.com/petrosa-faces-legal-action/"
                     },
                     {
+                        "number": 15,
                         "url": "https://www.saflii.org/za/cases/ZAWCHC/2011/249.html\n"
                     }
                 ]
@@ -364,9 +379,11 @@
                 "learn-more": "The international norm is to hold 90 days’ worth of oil supply in reserve, to alleviate any disruptions to the global supply chain. In South Africa’s case, this would equate to around 25m barrels, although local laws only mandate that the reserve holds 21 days’ worth (around 10m barrels)[12]. ",
                 "references": [
                     {
+                        "number": 16,
                         "url": "https://pmg.org.za/committee-meeting/32407/"
                     },
                     {
+                        "number": 17,
                         "url": "https://www.outa.co.za/blog/newsroom-1/post/reclaim-sas-strategic-oil-reserves-946 \n"
                     }
                 ]
@@ -419,16 +436,20 @@
                 "learn-more": "PetroSA was often late publishing annual reports and financial statements, and  after 2020 stopped sharing its accounts altogether. Now its performance is included in the CEF’s annual reports so profits and losses are not always clear. Between 2013 and 2020, however, we know it lost more than R25bn[15].",
                 "references": [
                     {
+                        "number": 18,
                         "url": "https://www.moneyweb.co.za/news/economy/goldman-sachs-sees-eskom-as-biggest-risk-to-sa-economy/"
                     },
                     {
+                        "number": 19,
                         "title": "PetroSA annual reports",
                         "url": "https://www.iol.co.za/news/golden-handshakes-bonuses-despite-petrosas-losses-8190663"
                     },
                     {
+                        "number": 20,
                         "url": "https://pmg.org.za/committee-meeting/24147/"
                     },
                     {
+                        "number": 21,
                         "url": "https://www.petrosa.co.za/investors.html"
                     }
                 ]
@@ -484,15 +505,19 @@
                 "learn-more": "In the financial year ending March 2023, it was alleged that PetroSA had charged Eskom up to R26 per litre for diesel, way over the pump price[17]. Actual numbers are, of course, rarely shared, but EE Intelligence reported the 2022-23 contract values as below. Who knows though? As reported by Carte Blanche[18], in 2023 Minister for Minerals and Energy, Gwede Mantashe, repeatedly justified secrecy around PetroSA’s contracting. In many cases, we just don’t know where it is buying from and how much it is selling for!",
                 "references": [
                     {
+                        "number": 22,
                         "url": "https://www.news24.com/fin24/economy/dmre-rejects-eskoms-bid-for-diesel-licence-20221230"
                     },
                     {
+                        "number": 23,
                         "url": "https://www.dailymaverick.co.za/article/2023-02-02-diesel-or-darkness-petrosa-charges-eskom-unfair-prices-extracts-upfront-payments/"
                     },
                     {
+                        "number": 24,
                         "url": "https://fuelsindustry.org.za/old-fuel-prices/"
                     },
                     {
+                        "number": 25,
                         "title": "PetroSA’s dirty business",
                         "url": "https://www.youtube.com/watch?v=hNHNimb-YLI"
                     }
@@ -554,10 +579,12 @@
                 "learn-more": "Did we mention one of the key players in this deal is Gasprombank, the Russian bank associated with oil and gas investments? So there’s also the issue of potential sanctions busting activities given that the invasion of Ukraine has made that country a pariah. Still - those geopolitics have increased fuel prices to ridiculous levels at the pumps, even as wholesale costs have dropped, so we’ll get a good price from any new gas mined!",
                 "references": [
                     {
+                        "number": 26,
                         "title": "Media reports on the founding of EquaTheza",
                         "url": "https://www.dailymaverick.co.za/article/2024-01-23-petrosa-taps-notorious-political-operator-for-massive-offshore-gas-deal/"
                     },
                     {
+                        "number": 27,
                         "title": "Own goal! PetroSA’s multi-billion rand offshore gas deal thwarted by unpaid soccer player",
                         "url": "https://amabhungane.org/own-goal-petrosas-multi-billion-rand-offshore-gas-deal-thwarted-by-unpaid-soccer-player/"
                     }
