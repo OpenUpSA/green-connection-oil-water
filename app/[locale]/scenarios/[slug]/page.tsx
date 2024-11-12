@@ -22,6 +22,9 @@ export default function Page({
   const scenarioIndex = scenarios.findIndex(
     (s: { slug: string }) => s.slug === slug
   );
+  const scenarioCount = scenarios.filter((s: any) => s.format != 'bonus').findIndex(
+    (s: { slug: string }) => s.slug === slug
+  );
   if (!scenario) {
     redirect("/");
   }
@@ -39,7 +42,7 @@ export default function Page({
       <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
       {scenario.format != "bonus" && (
         <p className="text-center ff-new-title-regular text-4xl">
-          {t("scenario-count")} {scenarioIndex + 1}
+          {t("scenario-count")} {scenarioCount + 1}
         </p>
       )}
       <h1 className="hidden">{t("title")}</h1>
