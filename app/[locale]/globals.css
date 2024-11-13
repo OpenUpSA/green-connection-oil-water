@@ -171,8 +171,14 @@ body {
     pointer-events: none;
     position: absolute;
     top: 1.7rem;
-    left: 50%;
-    margin-left: -5.7rem;
+
+    &.mlc-2 {
+      margin-left: 5rem;
+    }
+
+    &.mlc-9 {
+      margin-left: 19rem;
+    }
   }
 
   .overlay-img-retract-up {
