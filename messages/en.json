@@ -19,7 +19,7 @@
                     "filename": "your-role.png",
                     "alt": "Image of silhouetted portraits"
                 },
-                "text": "You are the head of PetroSA. This is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), and it currently reports to the newsly-formed Department of Minerals and Petroleum. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing gas to liquid (GTL) refineries."
+                "text": "You are the head of PetroSA. This is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), which in 2024 reported to the Department of Mineral Resources and Energy. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing a gas to liquid (GTL) refinery."
             },
             {
                 "label": "Step 2",
@@ -340,14 +340,14 @@
                 "sections": [
                     {
                         "heading": "Set-up",
-                        "text": "You are the acting CEO of PetroSA’s sister company, the Strategic Fuel Fund (SFF). You have written to the Minister of Energy requesting permission to “rotate” some of its strategic oil reserves[17][18]. That means selling off some of the oil reserves and then replenishing them. \n\nThe Minister agrees to the request, with certain provisions regarding regular reporting of progress, a transparent process for sale and purchase of stock, and that stock levels are maintained.\n\nDo you…"
+                        "text": "You're not the only one with big decisions to make in the energy cluster. \n\nThe acting CEO of PetroSA’s sister company, the Strategic Fuel Fund (SFF), has written to the Minister of Energy requesting permission to “rotate” some of its strategic oil reserves[17][18]. That means selling off some of the oil reserves and then replenishing them. \n\nThe Minister agrees to the request, with certain provisions regarding regular reporting of progress, a transparent process for sale and purchase of stock, and that stock levels are maintained."
                     },
                     {
                         "image": "whats-required-to-rotate-the-reserves.png"
                     },
                     {
                         "heading": "The dilemma",
-                        "text": "Do you..."
+                        "text": "Should the SFF..."
                     },
                     {
                         "image": "to-comply-or-not-to-comply.png"
@@ -374,11 +374,11 @@
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "You nearly got away with it! No-one noticed that you sold off the strategic reserve for a pittance in December. You only got $28 per barrel when the market price was over $40! In fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re not just walking free. In 2024 you were appointed head of the South African National Petroleum Company (SANPC). Congratulations!"
+                        "description": "They nearly got away with it! No-one noticed that the SFF sold off the strategic reserve for a pittance in December, they only got $28 per barrel when the market price was over $40! \n\nIn fact, in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure the acting CEO would get jailed for that one (especially the board!), they aren't just walking free. In 2024 they were appointed head of the South African National Petroleum Company (SANPC). \n\nSomething to learn from?"
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "Well aren’t you just an angel? In real life, the acting CEO of SFF flogged off the strategic reserve and didn’t bother to refill the tanks - and to top it off only made $28 per barrel when the open market price was over $40. No-one seemed to notice for a while, as in March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure you’d get jailed for that one (especially your board!), you’re not just walking free. In 2024 you were appointed head of the South African National Petroleum Company (SANPC). Congratulations!"
+                        "description": "Well aren’t you just an angel?\n\nIn real life, the acting CEO of SFF flogged off the strategic reserve and didn’t bother to refill the tanks - effectively banking the cash but letting the reserve run dry. And to top it off, they only made $28 per barrel when the open market price was over $40. \n\nNo-one seemed to notice for a while, as that March the Minister told Parliament that there was still plenty of fuel in storage for a rainy day. Unfortunately, the truth did come out, but only two years later. The good news is that while everyone was sure the acting CEO would get jailed for that one (especially the SFF board!), they aren't just walking free. In 2024 they were appointed head of the South African National Petroleum Company (SANPC). \n\nSomething to learn from?"
                     }
                 },
                 "learn-more": "The international norm is to hold 90 days’ worth of oil supply in reserve, to alleviate any disruptions to the global supply chain. In South Africa’s case, this would equate to around 25m barrels, although local laws only mandate that the reserve holds 21 days’ worth (around 10m barrels)[19]. ",
@@ -619,11 +619,11 @@
                 "sections": [
                     {
                         "heading": "Description",
-                        "text": "PetroSA has a huge shortfall in its budget for rehabilitation and decommissioning of facilities, which must be addressed by February 2024. It was reported in 2020 that this cost was R12.43bn, of which PSA has R2.78bn set aside. \n\nThere is a loophole that says it can buy itself 5 more years of time by entering into a payment agreement with the minister\n"
+                        "text": "PetroSA has a huge shortfall in its budget for rehabilitation and decommissioning of facilities, which must be addressed by February 2024. It was reported in 2020 that this cost was R12.43bn, of which PetroSA has R2.78bn set aside. \n\nThere is a loophole that says it can buy itself 5 more years of time by entering into a payment agreement with the minister.\n\n"
                     },
                     {
                         "heading": "Set-up",
-                        "text": "You are the CEO of PetroSA and you’re looking at a financial black hole. At the end of 2020, you knew you were R9.4 billion short of the R12.4bn you needed to set aside under the terms of the National Environmental Management Act 1998 (NEMA), which governs issues such as rehabilitation and decommissioning of facilities.. \n\nSome of this money is for cleaning up toxic waste left behind after a facility is closed, and it has to be handed over to the government this month. But times have been hard, and even though directors are still getting bonuses and wasteful expenditure is up in the billions, you’ve not put a single penny aside for the last four years.\n\nThis is serious, if you don’t sort it out, you could face 10 years in prison!\n"
+                        "text": "You are the CEO of PetroSA and you’re looking at a financial black hole. At the end of 2020, you knew you were R9.4 billion short of the R12.4bn you needed to set aside under the terms of the National Environmental Management Act 1998 (NEMA)[33], which governs issues such as rehabilitation and decommissioning of facilities… \n\nSome of this money is for cleaning up toxic waste left behind after a facility is closed, and it has to be handed over to the government within two years, but the prospects aren’t looking good. Even though directors are still getting bonuses and wasteful expenditure is up in the billions, you’ve not been putting the pennies aside for this one.\n\nThis is serious, if you don’t sort it out, you could face 10 years in prison!\n"
                     },
                     {
                         "image": "neglect-and-excess-leads-to-tough-decisions.png"
@@ -643,7 +643,7 @@
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Explain to local fishers that they probably should move coast?",
+                        "text": "Explain to the local community it’s probably not going to be safe to live here for a while?",
                         "goto": "incorrect"
                     },
                     {
@@ -651,28 +651,85 @@
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Beg the Minister to let you enter into a five year payment plan, kicking the issue into touch for now.",
+                        "text": "Issue a tender notice to redefine what decommissioning means, and reduce the cost?",
                         "goto": "correct"
                     }
                 ],
                 "answers": {
                     "correct": {
                         "title": "Correct!",
-                        "description": "You’ve got away with it for now. At the time of writing, the NEMA Financial Provision Regulations have been amended to big somewhat ambiguous: the period of payback is not “until a new date is published in the gazette”. \n\nConfusing, inexplicable, unaccountable? Just another day in the office for you!"
+                        "description": "Unbelievable, but you did it anyway. Despite the fact your eyesore of a drilling rig hasn’t been in operation for 14 years, you just can’t stomach the costs of cleaning up the environmental disaster just leaving it there will be. So instead, you issue a tender notice calling for an expert who can “identify the potential to reduce the scope within the decommissioning”[34]. Cut costs, in other words.\n\nNot that it matters too much. By late 2024 the liability fund is still just as empty, and no-one has taken action to force PetroSA to pay up. This one is being kicked so far in to touch the players should try out for the Springboks."
                     },
                     "incorrect": {
                         "title": "Incorrect!",
-                        "description": "You’ve not got the hang of this yet, have you? At the time of writing, the NEMA Financial Provision Regulations have been amended to big somewhat ambiguous: the period of payback is not “until a new date is published in the gazette”. \n\nConfusing, inexplicable, unaccountable? Just another day in the office for you!"
+                        "description": "You’ve not got the hang of this yet, have you? Despite the fact your eyesore of a drilling rig hasn’t been in operation for 14 years, the organisation just couldn’t stomach the costs of cleaning up the environmental disaster just leaving it there will be. So instead, it issued a tender notice calling for an expert who can “identify the potential to reduce the scope within the decommissioning”[34]. Cut costs, in other words.\n\nNot that it matters too much. By late 2024 the liability fund is still just as empty, and no-one has taken action to force PetroSA to pay up. This one is being kicked so far in to touch the players should try out for the Springboks."
                     }
-                }
+                },
+                "references": [
+                    {
+                        "title": "PetroSA Annual Report 2020",
+                        "number": "33",
+                        "url": "https://www.petrosa.co.za/PetroSA%20AR%202020%20Final.pdf"
+                    },
+                    {
+                        "title": "Tender notice CTT24861",
+                        "number": "34",
+                        "url": "https://www.etenders.gov.za/home/Download/?blobName=208cc87a-038b-43ac-8af4-835393f47063.pdf&downloadedFileName=Decom%20Independent%20Review%20SOW_16%20Feb%202022.pdf\n"
+                    }
+                ]
             },
             {
-                "format": "bonus",
-                "slug": "final-scenario",
-                "title": "Final scenario",
+                "format": "normal",
+                "slug": "this-is-the-end",
+                "title": "This is the end",
+                "sub-title": "November 2024",
                 "sections": [
                     {
-                        "text": "What is the correct answer? We don’t know - and neither do you. But what is clear is that PetroSA cannot continue to gaslight the nation and hide incompetence, corruption and waste behind a veil of obfuscation and poor transparency. Join us to campaign for a cleaner, better future."
+                        "heading": "Description",
+                        "text": "The end is nigh for PetroSA, as it is being rolled into a new SOE called the National Petroleum Company (NPC) and merged with the SFF and iGas. Eventually - when NPC started operating, PetroSA was left out because it was such a mess[35]. "
+                    },
+                    {
+                        "heading": "Set-up",
+                        "text": "Right now, there’s a more pressing need. The PetroSA CEO has been suspended pending an investigation[36] and you’ve got to pick up the reins. You can see what a mess the financials have been, and there’s an furore about the way the organisation has been gaslighting the nation over its activities, and continues to do so, by dodging questions and accountability.[37]\n\n"
+                    },
+                    {},
+                    {
+                        "heading": "The dilemma",
+                        "text": "You’ve got a load of useless infrastructure rusting away, and the golden goose that was loadshedding has finally been plucked. Do you.."
+                    }
+                ],
+                "options": [
+                    {
+                        "text": "Cease operations and recommend an immediate independent inquiry into the company’s affairs?",
+                        "goto": "correct"
+                    },
+                    {
+                        "text": "Push for the merger with NPC, but make a plan to leave PetroSA’s liabilities in another vehicle?",
+                        "goto": "correct"
+                    },
+                    {
+                        "text": "Promise to turn the company around, taking inspiration from other SOEs that are slowly becoming more transparent and effective?",
+                        "goto": "correct"
+                    }
+                ],
+                "answers": {
+                    "correct": {
+                        "title": "What is the correct answer?",
+                        "description": "We don’t know - and neither do you. Right now it could go in any direction. But what is clear is that PetroSA should not be allowed to continue gaslighting the nation and hide its incompetence, corruption and waste behind a veil of obfuscation and poor transparency. \n\nAnd that means that it’s down to us, as active citizens and responsible voters to hold our state owned companies to account.\n\nJoin us to campaign for a cleaner, better future. \n"
+                    }
+                },
+                "references": [
+                    {
+                        "number": "35",
+                        "url": "https://www.iol.co.za/news/energy/petrosa-fails-to-make-the-cut-to-join-south-africas-new-national-petroleum-company-cc1b27ac-eaeb-445a-abfd-aef78b106492"
+                    },
+                    {
+                        "number": "36",
+                        "url": "https://www.news24.com/fin24/companies/petrosa-suspends-ceo-eight-months-after-appointment-20241017"
+                    },
+                    {
+                        "number": "37",
+                        "url": "https://www.dailymaverick.co.za/article/2024-11-20-unaccountable-00044-petrosa-bankrupt-but-open-for-business/"
                     }
                 ]
             }
