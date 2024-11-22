@@ -686,16 +686,21 @@
                 "sections": [
                     {
                         "heading": "Description",
-                        "text": "The end is nigh for PetroSA, as it is being rolled into a new SOE called the National Petroleum Company (NPC) and merged with the SFF and iGas. Eventually - when NPC started operating, PetroSA was left out because it was such a mess[35]. "
+                        "text": "The end is nigh for PetroSA, as it is being rolled into a new SOE called the National Petroleum Company (NPC) and merged with the SFF and iGas. \n\nWell, it will eventually. When NPC started operating, PetroSA was left out because it was such a mess[35]. "
                     },
                     {
                         "heading": "Set-up",
                         "text": "Right now, there’s a more pressing need. The PetroSA CEO has been suspended pending an investigation[36] and you’ve got to pick up the reins. You can see what a mess the financials have been, and there’s an furore about the way the organisation has been gaslighting the nation over its activities, and continues to do so, by dodging questions and accountability.[37]\n\n"
                     },
-                    {},
+                    {
+                        "image": "the-walls-are-closing-in.png"
+                    },
                     {
                         "heading": "The dilemma",
                         "text": "You’ve got a load of useless infrastructure rusting away, and the golden goose that was loadshedding has finally been plucked. Do you.."
+                    },
+                    {
+                        "image": "no-way-out-time-to-chose.png"
                     }
                 ],
                 "options": [
