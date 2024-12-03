@@ -643,7 +643,7 @@
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Explain to the local community it’s probably not going to be safe to live here for a while?",
+                        "text": "Explain to the local community that oil pollution is not really that bad",
                         "goto": "incorrect"
                     },
                     {
@@ -651,7 +651,7 @@
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Issue a tender notice to redefine what decommissioning means, and reduce the cost?",
+                        "text": "Issue a tender to reduce this environmental liability possibly to zero",
                         "goto": "correct"
                     }
                 ],
@@ -709,11 +709,11 @@
                         "goto": "correct"
                     },
                     {
-                        "text": "Push for the merger with NPC, but make a plan to leave PetroSA’s liabilities in another vehicle?",
+                        "text": "Push for merger into the new NPC but make a plan to leave PetroSA’s liabilities for South Africans to pay for",
                         "goto": "correct"
                     },
                     {
-                        "text": "Promise to turn the company around, taking inspiration from other SOEs that are slowly becoming more transparent and effective?",
+                        "text": "Promise to turn the company around while knowing that these promises are not binding, taking inspiration from other SOEs that are slowly becoming more transparent and effective?",
                         "goto": "correct"
                     }
                 ],
