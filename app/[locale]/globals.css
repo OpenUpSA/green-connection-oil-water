@@ -34,46 +34,66 @@ body {
 
 @layer base {
   @font-face {
-    font-family: Krub-Regular;
+    font-family: 'Krub';
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/Krub-Regular.ttf") format("truetype");
+    src: url("/fonts/Krub-Regular.woff2") format("woff2"),
+      url("/fonts/Krub-Regular.woff") format("woff"),
+      url("/fonts/Krub-Regular.ttf") format("truetype");
+    font-display: swap;
   }
 
   @font-face {
-    font-family: Krub-Bold;
+    font-family: 'Krub';
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/Krub-Bold.ttf") format("truetype");
+    src: url("/fonts/Krub-Bold.woff2") format("woff2"),
+      url("/fonts/Krub-Bold.woff") format("woff"),
+      url("/fonts/Krub-Bold.ttf") format("truetype");
+    font-display: swap;
   }
 
   @font-face {
-    font-family: NewTitle-Regular;
+    font-family: 'NewTitle';
     font-style: normal;
-    src: url("/fonts/NewTitle-Regular.ttf") format("truetype");
+    font-weight: 400;
+    /* Specify weights for consistency */
+    src: url("/fonts/NewTitle-Regular.woff2") format("woff2"),
+      url("/fonts/NewTitle-Regular.woff") format("woff"),
+      url("/fonts/NewTitle-Regular.ttf") format("truetype");
+    font-display: swap;
   }
 
   @font-face {
-    font-family: NewTitle-Bold;
-    font-style: normal;
-    src: url("/fonts/NewTitle-Bold.ttf") format("truetype");
-  }
-
-  @font-face {
-    font-family: Caveat;
+    font-family: 'NewTitle';
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/Caveat-Bold.ttf") format("truetype");
+    src: url("/fonts/NewTitle-Bold.woff2") format("woff2"),
+      url("/fonts/NewTitle-Bold.woff") format("woff"),
+      url("/fonts/NewTitle-Bold.ttf") format("truetype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/Caveat-Bold.woff2") format("woff2"),
+      url("/fonts/Caveat-Bold.woff") format("woff"),
+      url("/fonts/Caveat-Bold.ttf") format("truetype");
+    font-display: swap;
   }
 
   html,
   body {
-    font-family: Krub-Regular, sans-serif;
+    font-family: Krub, sans-serif;
+    font-family: 400;
     font-size: 16px;
   }
 
   .red-button {
-    font-family: Newtitle-Regular;
+    font-family: 'NewTitle', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
     background-color: var(--redish);
     color: var(--button-text);
     font-size: 1.75rem;
@@ -89,7 +109,7 @@ body {
 
   h1 {
     @apply text-blue-900;
-    font-family: NewTitle-Regular;
+    font-family: 'NewTitle', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 100;
     font-size: 2rem;
     letter-spacing: 0.32px;
@@ -99,7 +119,7 @@ body {
   h2 {
     @apply text-blue-500 font-serif font-bold;
     font-size: 3.5rem;
-    font-family: NewTitle-Bold;
+    font-family: 'NewTitle', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1.76px;
     margin: 0;
@@ -114,6 +134,7 @@ body {
     @apply text-blue-900 font-medium;
     font-size: 2.25rem;
     font-family: Caveat, sans-serif;
+    font-weight: 700;
     letter-spacing: -0.72px;
     text-align: center;
   }
@@ -126,25 +147,29 @@ body {
     @apply text-blue-900 font-medium;
     font-size: 2.25rem;
     font-family: Caveat, sans-serif;
+    font-weight: 700;
     letter-spacing: -0.72px;
     text-align: center;
   }
 
   strong {
-    font-family: Krub-Bold, sans-serif;
+    font-family: Krub, sans-serif;
     font-weight: 700;
   }
 
   .ff-krub-bold {
-    font-family: Krub-Bold, sans-serif;
+    font-family: Krub, sans-serif;
+    font-weight: 700;
   }
 
   .ff-new-title-regular {
-    font-family: NewTitle-Regular, sans-serif;
+    font-family: 'NewTitle', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
   }
 
   .ff-new-title-bold {
-    font-family: NewTitle-Bold, sans-serif;
+    font-family: 'NewTitle', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
   }
 
   .bg-dark-blue {
@@ -294,6 +319,7 @@ ol.reference-list {
 
     .counter {
       font-family: Caveat;
+      font-weight: 700;
       margin-right: 10px;
       background: #ed1547;
       border-radius: 100%;
