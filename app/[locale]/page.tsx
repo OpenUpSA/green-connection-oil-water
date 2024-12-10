@@ -28,6 +28,7 @@ export default function Page({
         width={950}
         height={839}
         className="display-block mt-5 transform-scale-130"
+        fetchPriority="low"
       />
       <p className="flex">
         <Link

@@ -8,8 +8,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Krub", "sans-serif"],
-      serif: ["NewTitle", "serif"],
+      sans: ["Krub", "Helvetica Neue", "Arial", "sans-serif"],
+      serif: ["NewTitle", "Georgia", "serif"],
     },
     extend: {
       fontSize: {
