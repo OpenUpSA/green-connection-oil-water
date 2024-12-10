@@ -12,7 +12,7 @@ export function FollowList() {
           className="display-block rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center"
         >
           <Image
-            src="/images/social/facebook.png"
+            src="/images/social/facebook.webp"
             alt="Facebook Logo"
             width="20"
             height="20"
@@ -26,7 +26,7 @@ export function FollowList() {
           className="display-block rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center"
         >
           <Image
-            src="/images/social/linkedin.png"
+            src="/images/social/linkedin.webp"
             alt="LinkedIn Logo"
             width="18"
             height="18"
@@ -40,7 +40,7 @@ export function FollowList() {
           className="display-block rounded-full	bg-red-500 h-11 w-11 text-center flex justify-center items-center"
         >
           <Image
-            src="/images/social/twitter.png"
+            src="/images/social/twitter.webp"
             alt="Twitter Logo"
             width="20"
             height="18"

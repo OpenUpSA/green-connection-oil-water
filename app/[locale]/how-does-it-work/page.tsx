@@ -17,7 +17,7 @@ export default function Page({
   return (
     <>
       <img
-        src="/images/pin-header.png"
+        src="/images/pin-header.webp"
         className="overlay-pin-header overlay-img-top-left overlay-img-retract-up ml-[-12rem]"
       />
       <h1 className="text-dark-blueish">{tP("title")}</h1>

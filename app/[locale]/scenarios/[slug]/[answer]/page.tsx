@@ -31,7 +31,7 @@ export default function Page({
   return (
     <Fragment>
       <img
-        src={`/images/pin-${answer}.png`}
+        src={`/images/pin-${answer}.webp`}
         className="overlay-pin-answer-header"
       />
       <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
@@ -78,7 +78,7 @@ export default function Page({
           </h2>
           <p className="text-center">{scenario["learn-more"]}</p>
           <img
-            src={`/images/${locale}/scenarios/${slug}/learn-more.png`}
+            src={`/images/${locale}/scenarios/${slug}/learn-more.webp`}
             alt={t("learn-more")}
             className="display-block my-5"
           />
