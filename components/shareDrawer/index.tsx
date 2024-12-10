@@ -32,7 +32,7 @@ export function ShareDrawer() {
           }
         >
           <Image
-            src="/images/social/share.png"
+            src="/images/social/share.webp"
             alt="Share icon"
             width="26"
             height="20"

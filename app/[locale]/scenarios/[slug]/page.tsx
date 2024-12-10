@@ -34,10 +34,10 @@ export default function Page({
   return (
     <Fragment>
       {scenario.format != "bonus" && (
-        <img src="/images/pin-header.png" className="overlay-pin-header" />
+        <img src="/images/pin-header.webp" className="overlay-pin-header" />
       )}
       {scenario.format == "bonus" && (
-        <img src="/images/pin-bonus.png" className={`overlay-pin-bonus mlc-${scenarioIndex}`} />
+        <img src="/images/pin-bonus.webp" className={`overlay-pin-bonus mlc-${scenarioIndex}`} />
       )}
       <Progress scenarios={scenarios} scenarioIndex={scenarioIndex} />
       {scenario.format != "bonus" && (

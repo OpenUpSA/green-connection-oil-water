@@ -187,62 +187,62 @@ body {
 }
 
 .has-title-ring {
-  background-image: url(/images/title-ring.png);
+  background-image: url(/images/title-ring.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
 }
 
 .has-title-ring-wide {
-  background-image: url(/images/title-ring-wide.png);
+  background-image: url(/images/title-ring-wide.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
 }
 
 .has-title-underline {
-  background-image: url(/images/title-underline.png);
+  background-image: url(/images/title-underline.webp);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
 
 .has-title-tail {
-  background-image: url(/images/title-tail.png);
+  background-image: url(/images/title-tail.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 .has-title-background-line {
-  background-image: url(/images/title-background-line.png);
+  background-image: url(/images/title-background-line.webp);
   background-repeat: repeat-x;
   background-position: center;
 }
 
 .has-pin-background {
-  background-image: url(/images/pin-background-top.png),
-    url(/images/pin-background-bottom.png);
+  background-image: url(/images/pin-background-top.webp),
+    url(/images/pin-background-bottom.webp);
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
 }
 
 .has-option-background {
-  background-image: url(/images/option-background-top.png),
-    url(/images/option-background-bottom.png);
+  background-image: url(/images/option-background-top.webp),
+    url(/images/option-background-bottom.webp);
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
 }
 
 .has-option-circle-background {
-  background-image: url(/images/option.png);
+  background-image: url(/images/option.webp);
   background-position: 1.5rem center;
   background-repeat: no-repeat;
 }
 
 .has-pin-torn-background {
-  background-image: url(/images/pin-torn-background-top.png),
-    url(/images/pin-background-bottom.png);
+  background-image: url(/images/pin-torn-background-top.webp),
+    url(/images/pin-background-bottom.webp);
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;

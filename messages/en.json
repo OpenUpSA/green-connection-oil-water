@@ -16,7 +16,7 @@
                 "label": "Step 1",
                 "heading": "Discover your role",
                 "image": {
-                    "filename": "your-role.png",
+                    "filename": "your-role.webp",
                     "alt": "Image of silhouetted portraits"
                 },
                 "text": "You are the head of PetroSA. This is one of the key state owned companies in South Africa’s energy sector, and was formed in 2002 as a result of the merger of several older organisations which looked after oil and gas supplies. Its parent organisation is the Central Energy Fund (CEF), which in 2024 reported to the Department of Mineral Resources and Energy. PetroSA’s role today includes offshore prospecting for natural gas, importing diesel and managing a gas to liquid (GTL) refinery."
@@ -25,7 +25,7 @@
                 "label": "Step 2",
                 "heading": "Get the low down",
                 "image": {
-                    "filename": "the-investigation-board.png",
+                    "filename": "the-investigation-board.webp",
                     "alt": "Cork board with post it notes"
                 },
                 "text": "Read the briefing and check out the investigation board to understand the factors at play in this scenario."
@@ -34,7 +34,7 @@
                 "label": "Step 3",
                 "heading": "Assess the dilemma",
                 "image": {
-                    "filename": "real-story.png",
+                    "filename": "real-story.webp",
                     "alt": "Photos, note, and money"
                 },
                 "text": "You will be presented with a dilemma from the past that will test your moral and ethical boundaries."
@@ -43,7 +43,7 @@
                 "label": "Step 4",
                 "heading": "Make your choice",
                 "image": {
-                    "filename": "choices.png",
+                    "filename": "choices.webp",
                     "alt": "The letters A, B, C, and D encircled with B highlighted in red"
                 },
                 "text": "Assess your options and make the choice that feels right to you!"
@@ -52,7 +52,7 @@
                 "label": "Step 5",
                 "heading": "See what happened",
                 "image": {
-                    "filename": "money-form-who.png",
+                    "filename": "money-form-who.webp",
                     "alt": "Pinned note"
                 },
                 "text": "See how your answer compares to the decision that was actually taken and get more information about what went down. You might be surprised!"
@@ -106,14 +106,14 @@
                         "text": "Congratulations on your appointment to the newly formed SOE, PetroSA. A politically linked company called Imvume Management has a deal via Glencore, a well known mining company, for buying Iraqi oil. Just two issues: Iraqi fuel can only be purchased through the UN’s  Oil for Food programme, and Imvume needs cash up front to do the job. "
                     },
                     {
-                        "image": "finding-the-oil-to-get-started.png"
+                        "image": "finding-the-oil-to-get-started.webp"
                     },
                     {
                         "heading": "The dilemma",
                         "text": "You really want this cheap oil for the strategic reserve. Do you…"
                     },
                     {
-                        "image": "start-strong-or-start-to-slip.png"
+                        "image": "start-strong-or-start-to-slip.webp"
                     }
                 ],
                 "options": [
@@ -161,14 +161,14 @@
                 "sub-title": "2006",
                 "sections": [
                     {
-                        "image": "a-gas-company-with-no-gas.png"
+                        "image": "a-gas-company-with-no-gas.webp"
                     },
                     {
                         "heading": "Set-up",
                         "text": "The heart of PetroSA’s operation is the gas-to-liquid (GTL) refinery in Mossel Bay, which converts gas mined off the coast to petroleum fuels. But with the gasfields expected to run dry by 2011, you’ve got some big decisions to make."
                     },
                     {
-                        "image": "gas-supply-running-dry-at-mosgas.png"
+                        "image": "gas-supply-running-dry-at-mosgas.webp"
                     }
                 ],
                 "options": [
@@ -233,7 +233,7 @@
                 "title": "Did you know?",
                 "sections": [
                     {
-                        "image": "what-are-stranded-assets.png"
+                        "image": "what-are-stranded-assets.webp"
                     },
                     {
                         "heading": "Did you know?",
@@ -244,7 +244,7 @@
                         "text": "The International Renewable Energy Agency (IRENA) estimates that a strategy of investing in renewable energy, energy efficiency and related fields such as climate smart agriculture, rather than pursuing current energy goals, could result in significantly more jobs and GDP growth[13]."
                     },
                     {
-                        "image": "climate-smart-is-economy-smart.png"
+                        "image": "climate-smart-is-economy-smart.webp"
                     }
                 ],
                 "references": [
@@ -286,7 +286,7 @@
                         "text": "The BEE company chosen by your Indian contractor to fly workers to your rigs is run by a powerful former prosecutor, and you have skeletons in the closet - including allegations of some dodgy dealings with underworld figures like Brett Kebble - which the prosecutor knows about!"
                     },
                     {
-                        "image": "trouble-getting-to-rigs.png"
+                        "image": "trouble-getting-to-rigs.webp"
                     },
                     {
                         "text": "“Due diligence” is an uncomfortable prospect. Do you…"
@@ -343,14 +343,14 @@
                         "text": "You're not the only one with big decisions to make in the energy cluster. \n\nThe acting CEO of PetroSA’s sister company, the Strategic Fuel Fund (SFF), has written to the Minister of Energy requesting permission to “rotate” some of its strategic oil reserves[17][18]. That means selling off some of the oil reserves and then replenishing them. \n\nThe Minister agrees to the request, with certain provisions regarding regular reporting of progress, a transparent process for sale and purchase of stock, and that stock levels are maintained."
                     },
                     {
-                        "image": "whats-required-to-rotate-the-reserves.png"
+                        "image": "whats-required-to-rotate-the-reserves.webp"
                     },
                     {
                         "heading": "The dilemma",
                         "text": "Should the SFF..."
                     },
                     {
-                        "image": "to-comply-or-not-to-comply.png"
+                        "image": "to-comply-or-not-to-comply.webp"
                     }
                 ],
                 "options": [
@@ -420,14 +420,14 @@
                         "text": "It’s been a tough few years for you. Since those big write offs for your Egyptian and Ghanaian operations in 2012, the books haven’t been good. Try as you might, you can’t hide the fact you’ve lost R15 billion in the last two years, and will probably lose another billion the next."
                     },
                     {
-                        "image": "profits-what-profits.png"
+                        "image": "profits-what-profits.webp"
                     },
                     {
                         "heading": "The dilemma",
                         "text": "Maybe it’s not all your fault the money isn’t coming in. The whole country has been struggling with overseas business since the Rand tanked at the appointment of David van Rooyen as Minister of Finance. Then the likes of Goldman Sachs keep telling the world how corrupt SA’s power sector is[23]. Do you…\n"
                     },
                     {
-                        "image": "take-responsibility-or-take-a-bonus.png"
+                        "image": "take-responsibility-or-take-a-bonus.webp"
                     }
                 ],
                 "options": [
@@ -489,14 +489,14 @@
                         "text": "Loadshedding is sending demand for diesel sky high, and by a quirk of legislative fate, Eskom is not able to go to the markets directly to procure and import this fuel for its open combined gas turbine (OCGT) generators[27]."
                     },
                     {
-                        "image": "sa-in-the-dark-eskom-left-powerless.png"
+                        "image": "sa-in-the-dark-eskom-left-powerless.webp"
                     },
                     {
                         "heading": "The dilemma",
                         "text": "You have the licences needed to procure and import diesel. Do you…"
                     },
                     {
-                        "image": "good-faith-middlemen-or-pirate.png"
+                        "image": "good-faith-middlemen-or-pirate.webp"
                     }
                 ],
                 "options": [
@@ -559,14 +559,14 @@
                         "text": "Your goal is to restart your long mothballed gas-to-liquid (GTL) refinery by drilling for gas off the coast of South Africa. You’ve issued three tenders, one to finance the restarting of the refinery, one to drill new wells and one to fund the drilling. It’s an expensive project, the drilling is going to cost R21.6 billion[31]."
                     },
                     {
-                        "image": "you-double-dipped-now-what.png"
+                        "image": "you-double-dipped-now-what.webp"
                     },
                     {
                         "heading": "The dilemma",
                         "text": "Somehow you’ve managed to mess up the tender process and contract two separate firms to provide the funding. Oops! Do you…"
                     },
                     {
-                        "image": "tenders-to-get-mosgas-online.png"
+                        "image": "tenders-to-get-mosgas-online.webp"
                     }
                 ],
                 "options": [
@@ -626,7 +626,7 @@
                         "text": "You are the CEO of PetroSA and you’re looking at a financial black hole. At the end of 2020, you knew you were R9.4 billion short of the R12.4bn you needed to set aside under the terms of the National Environmental Management Act 1998 (NEMA)[33], which governs issues such as rehabilitation and decommissioning of facilities… \n\nSome of this money is for cleaning up toxic waste left behind after a facility is closed, and it has to be handed over to the government within two years, but the prospects aren’t looking good. Even though directors are still getting bonuses and wasteful expenditure is up in the billions, you’ve not been putting the pennies aside for this one.\n\nThis is serious, if you don’t sort it out, you could face 10 years in prison!\n"
                     },
                     {
-                        "image": "neglect-and-excess-leads-to-tough-decisions.png"
+                        "image": "neglect-and-excess-leads-to-tough-decisions.webp"
                     },
                     {
                         "heading": "The dilemma",
@@ -693,14 +693,14 @@
                         "text": "Right now, there’s a more pressing need. The PetroSA CEO has been suspended pending an investigation[36] and you’ve got to pick up the reins. You can see what a mess the financials have been, and there’s an furore about the way the organisation has been gaslighting the nation over its activities, and continues to do so, by dodging questions and accountability.[37]\n\n"
                     },
                     {
-                        "image": "the-walls-are-closing-in.png"
+                        "image": "the-walls-are-closing-in.webp"
                     },
                     {
                         "heading": "The dilemma",
                         "text": "You’ve got a load of useless infrastructure rusting away, and the golden goose that was loadshedding has finally been plucked. Do you.."
                     },
                     {
-                        "image": "no-way-out-time-to-chose.png"
+                        "image": "no-way-out-time-to-chose.webp"
                     }
                 ],
                 "options": [

@@ -14,7 +14,7 @@ export default function Page({
   return (
     <>
       <img
-        src="/images/pin-header.png"
+        src="/images/pin-header.webp"
         className="overlay-pin-header overlay-img-retract-up ml-[4rem]"
         width="273"
         height="173"
@@ -23,7 +23,7 @@ export default function Page({
       <h2 className="text-bigger text-light-blueish p-0">{t("title-name")}</h2>
       <h3 className="text-dark-blueish text-2xl">{t("sub-title")}</h3>
       <img
-        src={`/images/${locale}/home/main.png`}
+        src={`/images/${locale}/home/main.webp`}
         alt="Home"
         width={950}
         height={839}
