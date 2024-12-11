@@ -5,7 +5,7 @@ describe("Test home page with default locale", () => {
     const defaultLocale = locales[0];
     cy.readFile(`messages/${defaultLocale}.json`).then((messages) => {
       cy.visit("http://localhost:3000/");
-      cy.get("h1").should("contain", messages.global.title);
+      cy.get("h2").should("contain", messages.global['title-name']);
     });
   });
 });
@@ -15,7 +15,7 @@ describe("Test home page with available locales", () => {
     it("passes", () => {
       cy.readFile(`messages/${locale}.json`).then((messages) => {
         cy.visit(`http://localhost:3000/${locale}`);
-        cy.get("h1").should("contain", messages.global.title);
+        cy.get("h2").should("contain", messages.global['title-name']);
       });
     });
   });
