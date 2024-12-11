@@ -39,7 +39,7 @@ export default function Page() {
         </span>
       </h3>
       <p className="text-center">{tP.rich("check-our-sources.text")}</p>
-      <p className="my-10">
+      <p className="mt-10">
         <Link
           href={`/references`}
           className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button"
@@ -68,6 +68,9 @@ export default function Page() {
             ></path>
           </svg>
         </Link>
+      </p>
+      <p className="text-center m-7 mt-5 text-sm">
+        {t("information")}
       </p>
     </>
   );

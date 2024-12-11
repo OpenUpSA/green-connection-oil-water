@@ -19,8 +19,7 @@ export default function Page({
         width="273"
         height="173"
       />
-      <h1 className="text-dark-blueish p-0">{t("title")}</h1>
-      <h2 className="text-bigger text-light-blueish p-0">{t("title-name")}</h2>
+      <h2 className="text-bigger text-light-blueish p-0 mt-10">{t("title-name")}</h2>
       <h3 className="text-dark-blueish text-2xl">{t("sub-title")}</h3>
       <img
         src={`/images/${locale}/home/main.webp`}
@@ -60,14 +59,25 @@ export default function Page({
           </svg>
         </Link>
       </p>
+      <p className="text-center m-7 mt-5 text-sm">
+        {t("information")}
+      </p>
       <p className="text-center m-7 mt-10 text-sm">
-        {tP("credit")}{" "}
+        {tP("credit")}{" "}<br />
         <Link
           href="https://openup.org.za"
           target="_blank"
           className="underline"
         >
           OpenUp
+        </Link>
+        {' '}&amp;{' '}
+        <Link
+          href="https://thegreenconnection.org.za/"
+          target="_blank"
+          className="underline"
+        >
+          Green Connection
         </Link>
       </p>
     </>
