@@ -7,6 +7,7 @@
         "get-started": "How does it work?",
         "credit": "A news game created by"
     },
+    "": "",
     "how-does-it-work": {
         "title": "Before you get started",
         "sub-title": "How does it work?",
@@ -123,11 +124,11 @@
                         "goto": "incorrect"
                     },
                     {
-                        "text": "Refuse to do the deal and report the issue to parliamentary oversight committees",
+                        "text": "Hand over the cash!",
                         "goto": "correct"
                     },
                     {
-                        "text": "Hand over the cash!",
+                        "text": "Refuse to do the deal and report the issue to parliamentary oversight committees",
                         "goto": "incorrect"
                     }
                 ],
