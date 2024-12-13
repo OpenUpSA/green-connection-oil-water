@@ -4,6 +4,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import IntlProvider from "./IntlProvider";
 
 import { ShareDrawer } from "components/shareDrawer";
+import FontWrapper from "components/fontWrapper";
+
 
 import "./globals.css";
 
@@ -73,9 +75,11 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <IntlProvider messages={messages} locale={locale} timeZone={timeZone}>
-          <main className="px-5 py-10 max-w-sm mx-auto has-main-background min-h-screen">
-            {children}
-          </main>
+          <FontWrapper>
+            <main className="px-5 py-10 max-w-sm mx-auto has-main-background min-h-screen">
+              {children}
+            </main>
+          </FontWrapper>
           <ShareDrawer />
         </IntlProvider>
       </body>
