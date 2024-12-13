@@ -19,20 +19,20 @@ export default function Page({
         width="273"
         height="173"
       />
-      <h2 className="text-bigger text-light-blueish p-0 mt-10">{t("title-name")}</h2>
-      <h3 className="text-dark-blueish text-2xl">{t("sub-title")}</h3>
+      <h2 className="text-bigger text-light-blueish p-0 mt-10 opacity-0 font-loaded:opacity-100 transition-opacity duration-500">{t("title-name")}</h2>
+      <h3 className="text-dark-blueish text-2xl opacity-0 font-loaded:opacity-100 transition-opacity duration-500 delay-[250ms]">{t("sub-title")}</h3>
       <img
         src={`/images/${locale}/home/main.webp`}
         alt="Home"
         width={950}
         height={839}
-        className="display-block mt-5 transform-scale-130"
+        className="display-block mt-5 transform-scale-130 opacity-0 font-loaded:opacity-100 transition-opacity duration-500 delay-[500ms]"
         fetchPriority="low"
       />
       <p className="flex">
         <Link
           href="/how-does-it-work"
-          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button mt-7"
+          className="flex justify-center items-center hover:bg-darker-blueish text-white mx-auto red-button mt-7 opacity-0 font-loaded:opacity-100 transition-opacity duration-500 delay-[750ms]"
         >
           {tP("get-started")}
           <svg
@@ -59,10 +59,10 @@ export default function Page({
           </svg>
         </Link>
       </p>
-      <p className="text-center m-7 mt-5 text-sm">
+      <p className="text-center m-7 mt-5 text-sm opacity-0 font-loaded:opacity-100 transition-opacity duration-500 delay-[1500ms]">
         {t("information")}
       </p>
-      <p className="text-center m-7 mt-10 text-sm">
+      <p className="text-center m-7 mt-10 text-sm opacity-0 font-loaded:opacity-100 transition-opacity duration-500 delay-[1500ms]">
         {tP("credit")}{" "}<br />
         <Link
           href="https://openup.org.za"

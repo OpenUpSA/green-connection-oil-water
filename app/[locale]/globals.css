@@ -40,7 +40,7 @@ body {
     src: url("/fonts/Krub-Regular.woff2") format("woff2"),
       url("/fonts/Krub-Regular.woff") format("woff"),
       url("/fonts/Krub-Regular.ttf") format("truetype");
-    font-display: swap;
+    font-display: fallback;
   }
 
   @font-face {
@@ -50,7 +50,7 @@ body {
     src: url("/fonts/Krub-Bold.woff2") format("woff2"),
       url("/fonts/Krub-Bold.woff") format("woff"),
       url("/fonts/Krub-Bold.ttf") format("truetype");
-    font-display: swap;
+    font-display: fallback;
   }
 
   @font-face {
@@ -61,7 +61,7 @@ body {
     src: url("/fonts/NewTitle-Regular.woff2") format("woff2"),
       url("/fonts/NewTitle-Regular.woff") format("woff"),
       url("/fonts/NewTitle-Regular.ttf") format("truetype");
-    font-display: swap;
+    font-display: fallback;
   }
 
   @font-face {
@@ -71,7 +71,7 @@ body {
     src: url("/fonts/NewTitle-Bold.woff2") format("woff2"),
       url("/fonts/NewTitle-Bold.woff") format("woff"),
       url("/fonts/NewTitle-Bold.ttf") format("truetype");
-    font-display: swap;
+    font-display: fallback;
   }
 
   @font-face {
@@ -81,7 +81,7 @@ body {
     src: url("/fonts/Caveat-Bold.woff2") format("woff2"),
       url("/fonts/Caveat-Bold.woff") format("woff"),
       url("/fonts/Caveat-Bold.ttf") format("truetype");
-    font-display: swap;
+    font-display: fallback;
   }
 
   html,
