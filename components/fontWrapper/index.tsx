@@ -9,7 +9,6 @@ interface FontWrapperProps {
 const FontWrapper = ({ children }: FontWrapperProps) => {
   useEffect(() => {
     document.fonts.ready.then((a) => {
-      console.log({a});
       document.documentElement.classList.add("font-loaded");
     });
   }, []);
