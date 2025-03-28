@@ -1,6 +1,7 @@
 import { getTimeZone, getTranslations } from "next-intl/server";
 import { getMessages } from "next-intl/server";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Hotjar } from "components/hotjar";
 import IntlProvider from "./IntlProvider";
 
 import { ShareDrawer } from "components/shareDrawer";
@@ -82,6 +83,7 @@ export default async function RootLayout({
           </FontWrapper>
           <ShareDrawer />
         </IntlProvider>
+        <Hotjar hjid="5353787" hjsv="6" />
       </body>
       <GoogleAnalytics gaId="G-GB9C1NQ8N0" />
     </html>
